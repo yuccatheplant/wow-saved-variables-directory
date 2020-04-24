@@ -1,6 +1,5 @@
 
 Storyline_Data = {
-	["RewardChoiceTutorial"] = 1,
 	["config"] = {
 		["dynamicBackgrounds"] = true,
 		["disableInInstances"] = true,
@@ -21,7 +20,7 @@ Storyline_Data = {
 			["Size"] = 16,
 			["Font"] = "Friz Quadrata TT",
 		},
-		["forceGossip"] = false,
+		["forceGossip"] = true,
 		["width"] = 830,
 		["NextAction"] = {
 			["Size"] = 10,
@@ -44,6 +43,8 @@ Storyline_Data = {
 		["relative"] = {
 		},
 	},
+	["RewardChoiceTutorial"] = 1,
 	["npc_blacklist"] = {
 	},
+	["ScrollingDialogsTutorial"] = 1,
 }

@@ -21,7 +21,7 @@ Storyline_Data = {
 			["Font"] = "Friz Quadrata TT",
 			["Size"] = 16,
 		},
-		["forceGossip"] = false,
+		["forceGossip"] = true,
 		["width"] = 830,
 		["debug"] = false,
 		["autoEquip"] = false,

@@ -4,6 +4,7 @@ RecountDB = {
 		["Yenuthile - Quel'Thalas"] = "Yenuthile - Quel'Thalas",
 		["Trean - Quel'Thalas"] = "Trean - Quel'Thalas",
 		["Jungrim - Quel'Thalas"] = "Jungrim - Quel'Thalas",
+		["Tunea - Argent Dawn"] = "Tunea - Argent Dawn",
 		["Daiqigan - Quel'Thalas"] = "Daiqigan - Quel'Thalas",
 		["Rifeng - Argent Dawn"] = "Rifeng - Argent Dawn",
 		["Thoshumwe - Quel'Thalas"] = "Thoshumwe - Quel'Thalas",
@@ -109,9 +110,43 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Daiqigan - Quel'Thalas"] = {
-			["ClampToScreen"] = true,
+		["Tunea - Argent Dawn"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -319.5548858642578,
+					["x"] = -589.9831695556641,
+					["w"] = 185.3670959472656,
+					["h"] = 128.8903198242188,
+				},
+			},
+			["LastInstanceName"] = "Maraudon",
+			["FrameStrata"] = "4-HIGH",
 			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["Locked"] = true,
+			["ClampToScreen"] = true,
+			["MainWindowWidth"] = 185.3670959472656,
+			["MainWindowHeight"] = 128.8903198242188,
+		},
+		["Daiqigan - Quel'Thalas"] = {
+			["CurDataSet"] = "OverallData",
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -320.1856575012207,
+					["x"] = -590.5232162475586,
+					["w"] = 184.2869415283203,
+					["h"] = 127.6286849975586,
+				},
+			},
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -126,14 +161,7 @@ RecountDB = {
 			["MainWindowHeight"] = 127.6286849975586,
 			["Locked"] = true,
 			["MainWindowWidth"] = 184.2869415283203,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -320.1856575012207,
-					["x"] = -590.5232162475586,
-					["w"] = 184.2869415283203,
-					["h"] = 127.6286849975586,
-				},
-			},
+			["ClampToScreen"] = true,
 		},
 		["Rifeng - Argent Dawn"] = {
 			["MainWindow"] = {
@@ -257,7 +285,7 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
-			["LastInstanceName"] = "Tol Dagor",
+			["LastInstanceName"] = "Shrine of the Storm",
 			["CurDataSet"] = "OverallData",
 			["MainWindowHeight"] = 122.4092483520508,
 			["FrameStrata"] = "4-HIGH",
@@ -423,14 +451,13 @@ RecountDB = {
 		["Minsohu - Argent Dawn"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -319.0147094726563,
-					["x"] = -589.9831695556641,
-					["w"] = 185.3670959472656,
-					["h"] = 129.9705810546875,
+					["y"] = -319.0000076293945,
+					["x"] = -590.1667861938477,
+					["w"] = 185.0000305175781,
+					["h"] = 130,
 				},
 			},
-			["MainWindowMode"] = 5,
-			["MainWindowHeight"] = 129.9705810546875,
+			["LastInstanceName"] = "The Escape from Durnholde",
 			["FrameStrata"] = "4-HIGH",
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
@@ -444,10 +471,12 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
-			["MainWindowWidth"] = 185.3670959472656,
 			["ClampToScreen"] = true,
+			["MainWindowWidth"] = 185.3670959472656,
+			["MainWindowHeight"] = 129.9705810546875,
 		},
 		["Keanis - Quel'Thalas"] = {
+			["CurDataSet"] = "OverallData",
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -328.1962432861328,
@@ -456,7 +485,6 @@ RecountDB = {
 					["h"] = 111.6076049804688,
 				},
 			},
-			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -468,13 +496,28 @@ RecountDB = {
 				},
 			},
 			["FrameStrata"] = "4-HIGH",
-			["MainWindowHeight"] = 111.6076049804688,
+			["Locked"] = true,
 			["ClampToScreen"] = true,
 			["MainWindowWidth"] = 187.5274505615234,
-			["Locked"] = true,
+			["MainWindowHeight"] = 111.6076049804688,
 		},
 		["Granley - Quel'Thalas"] = {
+			["Locked"] = true,
+			["ClampToScreen"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["FrameStrata"] = "4-HIGH",
 			["MainWindowHeight"] = 124.3882141113281,
+			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 179.9662628173828,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -321.8059005737305,
@@ -483,21 +526,6 @@ RecountDB = {
 					["h"] = 124.3882141113281,
 				},
 			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["FrameStrata"] = "4-HIGH",
-			["Locked"] = true,
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 179.9662628173828,
-			["ClampToScreen"] = true,
 		},
 		["Yuccamailh - Quel'Thalas"] = {
 			["MainWindowVis"] = false,
@@ -578,7 +606,6 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 		},
 		["Yenuthile - Drak'thul"] = {
-			["ClampToScreen"] = true,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -323.3707885742188,
@@ -587,6 +614,7 @@ RecountDB = {
 					["h"] = 121.2584457397461,
 				},
 			},
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -598,10 +626,10 @@ RecountDB = {
 				},
 			},
 			["MainWindowWidth"] = 186.3820190429688,
-			["MainWindowHeight"] = 121.2584228515625,
+			["Locked"] = true,
 			["CurDataSet"] = "OverallData",
 			["FrameStrata"] = "4-HIGH",
-			["Locked"] = true,
+			["MainWindowHeight"] = 121.2584228515625,
 		},
 		["Bankeryuccaa - Argent Dawn"] = {
 			["MainWindowVis"] = false,
@@ -663,8 +691,15 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 		},
 		["Yenuthile - Argent Dawn"] = {
-			["Locked"] = true,
-			["ClampToScreen"] = true,
+			["MainWindowHeight"] = 128.8903656005859,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -319.5548629760742,
+					["x"] = -589.4430694580078,
+					["w"] = 186.4472961425781,
+					["h"] = 128.8903656005859,
+				},
+			},
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -676,17 +711,10 @@ RecountDB = {
 				},
 			},
 			["FrameStrata"] = "4-HIGH",
-			["MainWindowHeight"] = 128.8903656005859,
+			["Locked"] = true,
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 186.4472808837891,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -319.5548629760742,
-					["x"] = -589.4430694580078,
-					["w"] = 186.4472961425781,
-					["h"] = 128.8903656005859,
-				},
-			},
+			["ClampToScreen"] = true,
 		},
 		["Seungyol - Drak'thul"] = {
 			["MainWindowVis"] = false,
@@ -708,7 +736,6 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 		},
 		["Dograem - Argent Dawn"] = {
-			["ClampToScreen"] = true,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -319.0147399902344,
@@ -717,6 +744,7 @@ RecountDB = {
 					["h"] = 129.9705047607422,
 				},
 			},
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -728,10 +756,10 @@ RecountDB = {
 				},
 			},
 			["MainWindowWidth"] = 184.2869110107422,
-			["MainWindowHeight"] = 129.9704895019531,
+			["Locked"] = true,
 			["CurDataSet"] = "OverallData",
 			["FrameStrata"] = "4-HIGH",
-			["Locked"] = true,
+			["MainWindowHeight"] = 129.9704895019531,
 		},
 		["Abankeryucca - Argent Dawn"] = {
 			["MainWindowVis"] = false,
@@ -753,7 +781,6 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 		},
 		["Faern - Quel'Thalas"] = {
-			["CurDataSet"] = "OverallData",
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -325.0463752746582,
@@ -762,6 +789,7 @@ RecountDB = {
 					["h"] = 117.9072494506836,
 				},
 			},
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -776,10 +804,9 @@ RecountDB = {
 			["MainWindowHeight"] = 117.9072494506836,
 			["Locked"] = true,
 			["MainWindowWidth"] = 188.6076202392578,
-			["ClampToScreen"] = true,
+			["CurDataSet"] = "OverallData",
 		},
 		["Seomin - Drak'thul"] = {
-			["CurDataSet"] = "OverallData",
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -326.5759582519531,
@@ -788,6 +815,7 @@ RecountDB = {
 					["h"] = 114.8480834960938,
 				},
 			},
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -802,7 +830,7 @@ RecountDB = {
 			["MainWindowHeight"] = 114.8480834960938,
 			["Locked"] = true,
 			["FrameStrata"] = "4-HIGH",
-			["ClampToScreen"] = true,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

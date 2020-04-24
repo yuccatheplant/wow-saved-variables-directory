@@ -1,129 +1,5 @@
 
 TRP3_Profiles = {
-	["0405154200knylg"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Monk",
-				["RA"] = "Human",
-				["FN"] = "Granley",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["IC"] = "Achievement_Character_Human_Male",
-				["v"] = 1,
-			},
-			["character"] = {
-				["RP"] = 1,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 1,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-			["misc"] = {
-				["ST"] = {
-				},
-				["PE"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Quel'Thalas - Granley",
-	},
-	["0328224548EjQOk"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Monk",
-				["RA"] = "Human",
-				["FN"] = "Yuccabrankra",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["IC"] = "Achievement_Character_Human_Female",
-				["v"] = 1,
-			},
-			["character"] = {
-				["RP"] = 1,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 1,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-			["misc"] = {
-				["ST"] = {
-				},
-				["PE"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Drak'thul - Yuccabrankra",
-	},
 	["0327213047JZwig"] = {
 		["inventory"] = {
 			["init"] = true,
@@ -198,409 +74,6 @@ TRP3_Profiles = {
 		},
 		["profileName"] = "Argent Dawn - Abankeryucca",
 	},
-	["03282244116eiOX"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Druid",
-				["RA"] = "Night Elf",
-				["PS"] = {
-				},
-				["MI"] = {
-				},
-				["FN"] = "Yuccamaila",
-				["IC"] = "Achievement_Character_Nightelf_Male",
-				["v"] = 1,
-			},
-			["character"] = {
-				["RP"] = 1,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 1,
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-				},
-				["v"] = 1,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Quel'Thalas - Yuccamaila",
-	},
-	["0317204907TmkLj"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Warrior",
-				["RA"] = "Human",
-				["RS"] = 0,
-				["FN"] = "Bankeryuccaa",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["IC"] = "Achievement_Character_Human_Female",
-				["v"] = 2,
-			},
-			["character"] = {
-				["CU"] = "",
-				["CO"] = "",
-				["RP"] = 2,
-				["LC"] = "enUS",
-				["XP"] = 1,
-				["v"] = 5,
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-					["1"] = 5,
-					["3"] = 0,
-					["2"] = 0,
-					["5"] = 0,
-					["4"] = 0,
-					["6"] = 0,
-				},
-				["v"] = 8,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Argent Dawn - Bankeryuccaa",
-	},
-	["0404233643kc4ti"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Warrior",
-				["RA"] = "Worgen",
-				["FN"] = "Veirne",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["IC"] = "achievement_worganhead",
-				["v"] = 1,
-			},
-			["character"] = {
-				["RP"] = 1,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 1,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-			["misc"] = {
-				["ST"] = {
-				},
-				["PE"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Quel'Thalas - Veirne",
-	},
-	["0409165547dmiRe"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Shaman",
-				["RA"] = "Dwarf",
-				["FN"] = "Dograem",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["IC"] = "Achievement_Character_Dwarf_Male",
-				["v"] = 1,
-			},
-			["character"] = {
-				["CU"] = "",
-				["CO"] = "",
-				["RP"] = 2,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 4,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-			["misc"] = {
-				["ST"] = {
-					["1"] = 0,
-					["3"] = 0,
-					["2"] = 0,
-					["5"] = 0,
-					["4"] = 0,
-					["6"] = 0,
-				},
-				["PE"] = {
-				},
-				["v"] = 7,
-			},
-		},
-		["questlog"] = {
-		},
-		["notes"] = {
-		},
-		["profileName"] = "Argent Dawn - Dograem",
-	},
-	["0408232814R6frK"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Hunter",
-				["RA"] = "Tauren",
-				["v"] = 2,
-				["IC"] = "Achievement_Character_Tauren_Male",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["FN"] = "Yenuthile",
-				["RS"] = 0,
-			},
-			["character"] = {
-				["v"] = 5,
-				["CO"] = "",
-				["RP"] = 2,
-				["LC"] = "enUS",
-				["XP"] = 1,
-				["CU"] = "",
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-					["1"] = 5,
-					["3"] = 0,
-					["2"] = 0,
-					["5"] = 0,
-					["4"] = 0,
-					["6"] = 0,
-				},
-				["v"] = 8,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["notes"] = {
-		},
-		["profileName"] = "Argent Dawn - Yenuthile",
-	},
-	["0414225834xIv4t"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Monk",
-				["RA"] = "Pandaren",
-				["RS"] = 0,
-				["FN"] = "Ri Feng",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["IC"] = "Achievement_Character_Pandaren_Female",
-				["v"] = 2,
-			},
-			["character"] = {
-				["RP"] = 2,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 2,
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-				},
-				["v"] = 1,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Argent Dawn - Rifeng",
-	},
 	["0301221101jbTao"] = {
 		["inventory"] = {
 			["init"] = true,
@@ -608,21 +81,21 @@ TRP3_Profiles = {
 			["totalWeight"] = 500,
 			["content"] = {
 				["17"] = {
-					["id"] = "bag",
+					["yOfs"] = -56.16881561279297,
 					["xOfs"] = -270.4979248046875,
 					["point"] = "RIGHT",
-					["relativePoint"] = "RIGHT",
-					["yOfs"] = -56.16881561279297,
+					["totalValue"] = 0,
+					["id"] = "bag",
 					["totalWeight"] = 500,
 					["content"] = {
 					},
-					["totalValue"] = 0,
+					["relativePoint"] = "RIGHT",
 				},
 			},
 			["totalValue"] = 0,
 		},
 		["notes"] = {
-			["0301221101jbTao"] = "Money: 0g 50s 10c\n\nMonk master: Chiu.\n\nAbducted pandaren: Xi-Han",
+			["0301221101jbTao"] = "Money: 0g 46s 95c\n\nMonk master: Chiu.\n\nRobbed pandaren: Xi-Han",
 		},
 		["profileName"] = "Argent Dawn - Tosmun",
 		["questlog"] = {
@@ -632,7 +105,17 @@ TRP3_Profiles = {
 				["QUEST"] = {
 				},
 			},
-			["currentCampaign"] = "coinCampaign",
+			["042423290735q8X"] = {
+				["NPC"] = {
+				},
+				["QUEST"] = {
+					["quest_1_first"] = {
+						["CS"] = "step_1_first",
+						["OB"] = {
+						},
+					},
+				},
+			},
 		},
 		["player"] = {
 			["characteristics"] = {
@@ -650,25 +133,25 @@ TRP3_Profiles = {
 				["EH"] = "3c4d1c",
 				["HE"] = "173",
 				["CH"] = "00d357",
-				["RA"] = "Human",
+				["RA"] = "Gilnean Human",
 				["BP"] = "Duskhaven - Gilneas",
-				["v"] = 29,
+				["v"] = 35,
 				["AG"] = "26",
-				["CL"] = "Monk",
+				["CL"] = "Tushui trainee",
 				["TI"] = "\"Doctor\"",
 				["EC"] = "Green",
-				["FT"] = "Field medic || Monk trainee",
+				["FT"] = "Field medic || Tushui trainee",
 				["PS"] = {
 				},
 				["WE"] = "Slim",
 			},
 			["character"] = {
-				["v"] = 39,
-				["CO"] = "-English not first language\n-Approachable\n-If you need anything, feel free to whisper!",
+				["v"] = 41,
+				["CO"] = "-English not first language\n-Approachable\n-Whisper me if I missed anything",
 				["RP"] = 2,
 				["LC"] = "enUS",
 				["XP"] = 1,
-				["CU"] = "-Frowned, mimic muscles tensed\n",
+				["CU"] = "-Glancing around",
 			},
 			["misc"] = {
 				["PE"] = {
@@ -688,7 +171,7 @@ TRP3_Profiles = {
 						["AC"] = true,
 						["TI"] = "Equipment",
 						["IC"] = "inv_misc_bag_07",
-						["TX"] = "-Small satchel on back side of waist.",
+						["TX"] = "-Small satchel on back side of waist.\n-Backpack",
 					},
 					["5"] = {
 						["IC"] = "inv_drink_waterskin_05",
@@ -711,7 +194,7 @@ TRP3_Profiles = {
 					["4"] = 0,
 					["6"] = 1,
 				},
-				["v"] = 84,
+				["v"] = 85,
 			},
 			["about"] = {
 				["T2"] = {
@@ -737,27 +220,31 @@ TRP3_Profiles = {
 		},
 		["relation"] = {
 			["0227163808I0k6a"] = "FRIEND",
+			["10072210205Tiuy"] = "FRIEND",
 			["0810180446rb90c"] = "BUSINESS",
 			["0304000817JfzSd"] = "FRIEND",
 			["0608012126aNpXr"] = "NEUTRAL",
 			["03161302558OHAM"] = "BUSINESS",
+			["0218094111URTwa"] = "FRIEND",
 			["0719125548aZ7TY"] = "UNFRIENDLY",
 			["11280322062X271"] = "FRIEND",
+			["0422135637M1wug"] = "NEUTRAL",
 			["0126183251L6mLU"] = "FRIEND",
-			["06052228105TqYg"] = "FRIEND",
 			["0329205832Gidfc"] = "NEUTRAL",
-			["1016130636GXilL"] = "FRIEND",
+			["06052228105TqYg"] = "FRIEND",
+			["0421124632eyzLE"] = "FRIEND",
+			["0706000137bgK2a"] = "BUSINESS",
 			["0514191418NGnPZ"] = "BUSINESS",
 			["0309182257czk9c"] = "NEUTRAL",
 			["0331082350H9Dlu"] = "FRIEND",
 			["1123235404FRD4L"] = "NEUTRAL",
 			["1118151851QiWqk"] = "FRIEND",
-			["0706000137bgK2a"] = "BUSINESS",
 			["0302005803fTMyw"] = "FRIEND",
-			["0421124632eyzLE"] = "FRIEND",
+			["1124233901VFlQO"] = "FRIEND",
+			["1016130636GXilL"] = "FRIEND",
 		},
 	},
-	["04091942031z9Ef"] = {
+	["04172110102jBOC"] = {
 		["inventory"] = {
 			["init"] = true,
 			["id"] = "main",
@@ -775,83 +262,22 @@ TRP3_Profiles = {
 		},
 		["player"] = {
 			["characteristics"] = {
-				["CL"] = "Monk",
-				["RA"] = "Pandaren",
-				["PS"] = {
-				},
+				["IC"] = "inv_misc_hearthstonecard_legendary",
+				["RS"] = 0,
 				["MI"] = {
 				},
-				["FN"] = "Minsohu",
-				["IC"] = "Achievement_Guild_ClassyPanda",
-				["v"] = 1,
+				["FN"] = "OOC",
+				["PS"] = {
+				},
+				["v"] = 6,
 			},
 			["character"] = {
+				["CU"] = "",
+				["CO"] = "",
 				["RP"] = 2,
 				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 2,
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-				},
-				["v"] = 1,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Argent Dawn - Minsohu",
-	},
-	["0405153352VjZNM"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["CL"] = "Demon Hunter",
-				["RA"] = "Night Elf",
-				["FN"] = "Justformoun",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["IC"] = "Achievement_Character_Nightelf_Male",
-				["v"] = 1,
-			},
-			["character"] = {
-				["RP"] = 1,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 1,
+				["XP"] = 1,
+				["v"] = 5,
 			},
 			["about"] = {
 				["T2"] = {
@@ -871,15 +297,23 @@ TRP3_Profiles = {
 			},
 			["misc"] = {
 				["ST"] = {
+					["1"] = 5,
+					["3"] = 0,
+					["2"] = 0,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
 				},
 				["PE"] = {
 				},
-				["v"] = 1,
+				["v"] = 8,
 			},
 		},
 		["questlog"] = {
 		},
-		["profileName"] = "Argent Dawn - Justformoun",
+		["notes"] = {
+		},
+		["profileName"] = "Argent Dawn - Tunea",
 	},
 }
 TRP3_Characters = {
@@ -890,7 +324,10 @@ TRP3_Characters = {
 		["profileID"] = "0328224548EjQOk",
 	},
 	["Minsohu-ArgentDawn"] = {
-		["profileID"] = "04091942031z9Ef",
+		["profileID"] = "04172110102jBOC",
+	},
+	["Veirne-Quel'Thalas"] = {
+		["profileID"] = "0404233643kc4ti",
 	},
 	["Justformoun-ArgentDawn"] = {
 		["profileID"] = "0405153352VjZNM",
@@ -898,14 +335,14 @@ TRP3_Characters = {
 	["Tosmun-ArgentDawn"] = {
 		["profileID"] = "0301221101jbTao",
 	},
-	["Veirne-Quel'Thalas"] = {
-		["profileID"] = "0404233643kc4ti",
+	["Dograem-ArgentDawn"] = {
+		["profileID"] = "0409165547dmiRe",
 	},
 	["Rifeng-ArgentDawn"] = {
 		["profileID"] = "0414225834xIv4t",
 	},
-	["Dograem-ArgentDawn"] = {
-		["profileID"] = "0409165547dmiRe",
+	["Tunea-ArgentDawn"] = {
+		["profileID"] = "04172110102jBOC",
 	},
 	["Abankeryucca-ArgentDawn"] = {
 		["profileID"] = "0327213047JZwig",
@@ -923,7 +360,7 @@ TRP3_Characters = {
 TRP3_Configuration = {
 	["HIDE_MAP_BUTTON_IF_EMPTY"] = false,
 	["toolbar_hide_title"] = false,
-	["CONFIG_TARGET_POS_X"] = -275.46435546875,
+	["CONFIG_TARGET_POS_X"] = -77.79348754882812,
 	["register_mature_filter"] = false,
 	["CONFIG_GLANCE_PARENT"] = "TRP3_TargetFrame",
 	["target_content_aa_player_b_music"] = true,
@@ -938,7 +375,7 @@ TRP3_Configuration = {
 	["target_icon_size"] = 30,
 	["toolbar_show_on_login"] = true,
 	["increase_color_contrast"] = true,
-	["CONFIG_TARGET_POS_Y"] = 123.3077087402344,
+	["CONFIG_TARGET_POS_Y"] = 114.6663131713867,
 	["minimap_show"] = true,
 	["target_content_quest_action_LISTEN"] = true,
 	["chat_use_CHAT_MSG_WHISPER"] = true,
@@ -1008,15 +445,15 @@ TRP3_Configuration = {
 	["tooltip_char_Anchor"] = "ANCHOR_TOPRIGHT",
 	["tooltip_in_character_only"] = false,
 	["tooltip_profile_only"] = true,
-	["chat_use_CHAT_MSG_GUILD"] = true,
-	["tooltip_char_current_size"] = 140,
 	["tooltip_char_AnchoredFrame"] = "GameTooltip",
-	["AddonLocale"] = "enUS",
 	["chat_color"] = true,
+	["chat_use_CHAT_MSG_GUILD"] = true,
+	["AddonLocale"] = "enUS",
+	["tooltip_char_current_size"] = 140,
 	["ui_animations"] = true,
 	["MAKE_SURE_BROADCAST_CHANNEL_IS_LAST"] = true,
 	["chat_npc_talk"] = true,
-	["CONFIG_TOOLBAR_POS_Y"] = 42.78086471557617,
+	["CONFIG_TOOLBAR_POS_Y"] = 39.54037857055664,
 	["config_register_about_h3_size"] = 16,
 	["tooltip_char_subSize"] = 12,
 	["chat_use_CHAT_MSG_PARTY_LEADER"] = true,
@@ -1030,42 +467,42 @@ TRP3_Configuration = {
 	["target_content_bb_companion_profile"] = true,
 	["ui_sounds"] = true,
 	["chat_language_remember_last_used"] = true,
-	["CONFIG_TOOLBAR_POS_X"] = -177.7972259521484,
+	["CONFIG_TOOLBAR_POS_X"] = -173.4765625,
 	["AF_STUFF"] = false,
-	["toolbar_content_ww_trp3_languages"] = true,
 	["chat_show_icon"] = true,
+	["toolbar_content_ww_trp3_languages"] = true,
 	["chat_use_CHAT_MSG_EMOTE"] = true,
 	["CONFIG_RIGHT_CLICK_OPEN_PROFILE_MODIFIER_KEY"] = 1,
 	["chat_use_CHAT_MSG_SAY"] = true,
 	["npc_talk_prefix"] = "|| ",
 	["target_content_quest_action_LOOK"] = true,
+	["toolbar_content_bb_extended_sounds"] = true,
+	["CONFIG_GLANCE_ANCHOR_Y"] = -14,
+	["target_content_aa_player_z_ignore"] = true,
+	["tooltip_char_realm"] = true,
+	["MAP_BUTTON_POSITION"] = "TOPLEFT",
+	["target_content_quest_action_TALK"] = true,
+	["config_register_about_h1_size"] = 25,
+	["toolbar_content_bb_trp3_npctalk"] = true,
+	["chat_disable_ooc"] = false,
+	["chat_use_CHAT_MSG_TEXT_EMOTE"] = true,
 	["MODULE_ACTIVATION"] = {
 		["trp3_tinytooltip"] = true,
 		["trp3_chatframes"] = true,
-		["trp3_wim"] = true,
 		["trp3_msp"] = true,
+		["trp3_wim"] = true,
 		["trp3_tooltips"] = true,
 		["trp3_elvui_chat"] = true,
 		["trp3_prat"] = true,
 		["trp3_glance_bar"] = true,
 		["trp3_tool_bar"] = true,
 		["trp3_elvui"] = true,
-		["trp3_extended_tools"] = true,
+		["trp3_target_bar"] = true,
 		["trp3_extended"] = true,
 		["trp3_mature_filter"] = true,
 		["trp3_tiptac"] = true,
-		["trp3_target_bar"] = true,
+		["trp3_extended_tools"] = true,
 	},
-	["CONFIG_GLANCE_ANCHOR_Y"] = -14,
-	["target_content_aa_player_z_ignore"] = true,
-	["tooltip_char_realm"] = true,
-	["chat_use_CHAT_MSG_TEXT_EMOTE"] = true,
-	["chat_disable_ooc"] = false,
-	["config_register_about_h1_size"] = 25,
-	["toolbar_content_bb_trp3_npctalk"] = true,
-	["target_content_quest_action_TALK"] = true,
-	["MAP_BUTTON_POSITION"] = "TOPLEFT",
-	["toolbar_content_bb_extended_sounds"] = true,
 	["target_content_aa_player_d_relation"] = true,
 	["toolbar_max_per_line"] = 7,
 	["tooltip_crop_text"] = true,
@@ -1292,7 +729,7 @@ TRP3_MatureFilter = {
 		["dick"] = 1,
 		["ponyplay"] = 1,
 		["doggiestyle"] = 1,
-		["strip club"] = 1,
+		["jail bait"] = 1,
 		["spunk"] = 1,
 		["boob"] = 1,
 		["blonde on blonde action"] = 1,
@@ -1313,7 +750,7 @@ TRP3_MatureFilter = {
 		["swinger"] = 1,
 		["coprolagnia"] = 1,
 		["blow job"] = 1,
-		["white power"] = 1,
+		["nambla"] = 1,
 		["style doggy"] = 1,
 		["pisspig"] = 1,
 		["splooge moose"] = 1,
@@ -1331,7 +768,7 @@ TRP3_MatureFilter = {
 		["blow your load"] = 1,
 		["barely legal"] = 1,
 		["goregasm"] = 1,
-		["cock"] = 1,
+		["sexy"] = 1,
 		["shrimping"] = 1,
 		["shitty"] = 1,
 		["omorashi"] = 1,
@@ -1345,14 +782,14 @@ TRP3_MatureFilter = {
 		["fucking"] = 1,
 		["xx"] = 1,
 		["tight white"] = 1,
-		["carpetmuncher"] = 1,
+		["baby juice"] = 1,
 		["spooge"] = 1,
 		["wetback"] = 1,
-		["baby juice"] = 1,
+		["carpetmuncher"] = 1,
 		["doggy style"] = 1,
 		["zoophilia"] = 1,
-		["tranny"] = 1,
 		["anal"] = 1,
+		["tranny"] = 1,
 		["spread legs"] = 1,
 		["swastika"] = 1,
 		["rusty trombone"] = 1,
@@ -1373,34 +810,34 @@ TRP3_MatureFilter = {
 		["queef"] = 1,
 		["orgasm"] = 1,
 		["rosy palm"] = 1,
-		["escort"] = 1,
-		["guro"] = 1,
+		["sultry women"] = 1,
+		["rectum"] = 1,
 		["goatse"] = 1,
 		["blonde action"] = 1,
-		["missionary position"] = 1,
+		["escort"] = 1,
 		["dry hump"] = 1,
 		["bdsm"] = 1,
 		["girl on"] = 1,
 		["octopussy"] = 1,
 		["ball sack"] = 1,
-		["anus"] = 1,
-		["circlejerk"] = 1,
-		["babeland"] = 1,
 		["futanari"] = 1,
+		["anus"] = 1,
+		["babeland"] = 1,
+		["circlejerk"] = 1,
 		["rimjob"] = 1,
 		["kike"] = 1,
 		["voyeur"] = 1,
-		["wet dream"] = 1,
-		["autoerotic"] = 1,
-		["bulldyke"] = 1,
-		["masturbate"] = 1,
 		["mound of venus"] = 1,
+		["autoerotic"] = 1,
+		["kinkster"] = 1,
+		["masturbate"] = 1,
+		["wet dream"] = 1,
 		["bung hole"] = 1,
 		["yellow showers"] = 1,
-		["pegging"] = 1,
+		["snatch"] = 1,
 		["huge fat"] = 1,
 		["clusterfuck"] = 1,
-		["snatch"] = 1,
+		["pegging"] = 1,
 		["poon"] = 1,
 		["anilingus"] = 1,
 		["cocks"] = 1,
@@ -1411,19 +848,19 @@ TRP3_MatureFilter = {
 		["dog style"] = 1,
 		["panties"] = 1,
 		["shemale"] = 1,
-		["nig nog"] = 1,
-		["double penetration"] = 1,
 		["wank"] = 1,
+		["double penetration"] = 1,
+		["bareback"] = 1,
 		["shibari"] = 1,
 		["dildo"] = 1,
 		["panty"] = 1,
 		["nigga"] = 1,
-		["feltch"] = 1,
-		["pussy"] = 1,
-		["sucks"] = 1,
+		["camel toe"] = 1,
+		["taste my"] = 1,
+		["suicide girls"] = 1,
 		["slanteye"] = 1,
 		["fingerbang"] = 1,
-		["camel toe"] = 1,
+		["feltch"] = 1,
 		["coons"] = 1,
 		["pedophile"] = 1,
 		["piece of shit"] = 1,
@@ -1433,11 +870,11 @@ TRP3_MatureFilter = {
 		["phone sex"] = 1,
 		["beaver lips"] = 1,
 		["pissing"] = 1,
+		["sucks"] = 1,
+		["pussy"] = 1,
 		["ass"] = 1,
-		["taste my"] = 1,
-		["suicide girls"] = 1,
 		["pleasure chest"] = 1,
-		["bareback"] = 1,
+		["nig nog"] = 1,
 		["tits"] = 1,
 		["slut"] = 1,
 		["dominatrix"] = 1,
@@ -1447,17 +884,17 @@ TRP3_MatureFilter = {
 		["coon"] = 1,
 		["wrapping men"] = 1,
 		["juggs"] = 1,
-		["kinkster"] = 1,
+		["bulldyke"] = 1,
 		["bullet vibe"] = 1,
 		["goodpoop"] = 1,
 		["two girls one cup"] = 1,
 		["one guy one jar"] = 1,
 		["punany"] = 1,
-		["sultry women"] = 1,
+		["missionary position"] = 1,
 		["raging boner"] = 1,
 		["bondage"] = 1,
 		["rosy palm and her 5 sisters"] = 1,
-		["rectum"] = 1,
+		["guro"] = 1,
 		["dp action"] = 1,
 		["tainted love"] = 1,
 		["pubes"] = 1,
@@ -1478,7 +915,7 @@ TRP3_MatureFilter = {
 		["mr hands"] = 1,
 		["spic"] = 1,
 		["erotic"] = 1,
-		["sexy"] = 1,
+		["cock"] = 1,
 		["negro"] = 1,
 		["kinky"] = 1,
 		["dirty pillows"] = 1,
@@ -1487,7 +924,7 @@ TRP3_MatureFilter = {
 		["poop chute"] = 1,
 		["splooge"] = 1,
 		["fuckin"] = 1,
-		["nambla"] = 1,
+		["white power"] = 1,
 		["strappado"] = 1,
 		["threesome"] = 1,
 		["muffdiving"] = 1,
@@ -1498,7 +935,7 @@ TRP3_MatureFilter = {
 		["eat my ass"] = 1,
 		["playboy"] = 1,
 		["creampie"] = 1,
-		["jail bait"] = 1,
+		["strip club"] = 1,
 		["topless"] = 1,
 		["tubgirl"] = 1,
 		["towelhead"] = 1,
