@@ -108,6 +108,104 @@ TRP3_Exchange_DB = {
 		},
 		["securityLevel"] = 1,
 	},
+	["0223205113fYGEU"] = {
+		["IN"] = {
+			["doc"] = {
+				["TY"] = "DO",
+				["LI"] = {
+				},
+				["MD"] = {
+					["MO"] = "NO",
+				},
+				["HA"] = {
+				},
+				["HE"] = 600,
+				["BT"] = true,
+				["SC"] = {
+				},
+				["PA"] = {
+					{
+						["TX"] = "__________________________________________\n\n\n\n\n\n\n{h1:c}Redbrew Happy Hour{/h1}\n\n{h2:c}The Redbrew Tavern Company happily invites one and all to come experience a night of cocktails, food and entertainment!{/h2}\n\n{h3:c}For one hour from 9:30 pm to 10:30 pm{/h3}\n{h3:c}On Thursday the 27th of Febuary{/h3}\n{h3:c}We will offer heavy discounts on drinks!{/h3}\n\n{h2:c}Come along and check it out!{/h2}\n\n\n\n___________________________________________",
+					}, -- [1]
+				},
+				["BCK"] = 8,
+				["BO"] = 1,
+				["H3_F"] = "QuestFont_Huge",
+				["FR"] = false,
+				["WI"] = 450,
+				["H1_F"] = "DestinyFontHuge",
+				["H2_F"] = "QuestFont_Huge",
+				["P_F"] = "GameTooltipHeader",
+				["BA"] = {
+					["NA"] = "Document",
+				},
+			},
+		},
+		["TY"] = "IT",
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "document_show",
+								["args"] = {
+									"0223205113fYGEU doc", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
+				},
+			},
+		},
+		["securityLevel"] = 3,
+		["MD"] = {
+			["CD"] = "23/02/20 20:51:13",
+			["SB"] = "Janneté-ArgentDawn",
+			["V"] = 6,
+			["SD"] = "24/02/20 21:40:05",
+			["tV"] = 1018,
+			["dV"] = "1.3.4",
+			["MO"] = "NO",
+			["LO"] = "en",
+			["CB"] = "Janneté-ArgentDawn",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
+		["details"] = {
+		},
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
+		},
+		["BA"] = {
+			["DE"] = "A note under the ribbon recommends you share this with your friends!",
+			["PS"] = 1186,
+			["US"] = true,
+			["CO"] = false,
+			["NA"] = "Redbrew Happy Hour!",
+			["ST"] = false,
+			["QA"] = 2,
+			["PA"] = false,
+			["UN"] = false,
+			["VA"] = 0,
+			["CR"] = false,
+			["DS"] = 1203,
+			["WA"] = false,
+			["SB"] = false,
+			["IC"] = "inv_scroll_16",
+			["QE"] = false,
+			["CT"] = false,
+			["WE"] = 0,
+		},
+	},
 	["0314164253oakUK"] = {
 		["IN"] = {
 			["doc"] = {
@@ -205,68 +303,29 @@ TRP3_Exchange_DB = {
 			["WE"] = 0,
 		},
 	},
-	["0223205113fYGEU"] = {
+	["03112020572xpXI"] = {
 		["IN"] = {
-			["doc"] = {
-				["TY"] = "DO",
-				["LI"] = {
-				},
-				["MD"] = {
-					["MO"] = "NO",
-				},
-				["HA"] = {
-				},
-				["HE"] = 600,
-				["BT"] = true,
-				["SC"] = {
-				},
-				["PA"] = {
-					{
-						["TX"] = "__________________________________________\n\n\n\n\n\n\n{h1:c}Redbrew Happy Hour{/h1}\n\n{h2:c}The Redbrew Tavern Company happily invites one and all to come experience a night of cocktails, food and entertainment!{/h2}\n\n{h3:c}For one hour from 9:30 pm to 10:30 pm{/h3}\n{h3:c}On Thursday the 27th of Febuary{/h3}\n{h3:c}We will offer heavy discounts on drinks!{/h3}\n\n{h2:c}Come along and check it out!{/h2}\n\n\n\n___________________________________________",
-					}, -- [1]
-				},
-				["BCK"] = 8,
-				["BO"] = 1,
-				["H3_F"] = "QuestFont_Huge",
-				["FR"] = false,
-				["WI"] = 450,
-				["H1_F"] = "DestinyFontHuge",
-				["H2_F"] = "QuestFont_Huge",
-				["P_F"] = "GameTooltipHeader",
-				["BA"] = {
-					["NA"] = "Document",
-				},
-			},
 		},
 		["TY"] = "IT",
 		["SC"] = {
 			["onUse"] = {
 				["ST"] = {
-					["1"] = {
-						["e"] = {
-							{
-								["id"] = "document_show",
-								["args"] = {
-									"0223205113fYGEU doc", -- [1]
-								},
-							}, -- [1]
-						},
-						["t"] = "list",
-					},
 				},
 			},
 		},
-		["securityLevel"] = 3,
+		["details"] = {
+		},
+		["NT"] = "AAAAAAAA",
 		["MD"] = {
-			["CD"] = "23/02/20 20:51:13",
-			["SB"] = "Janneté-ArgentDawn",
-			["V"] = 6,
-			["SD"] = "24/02/20 21:40:05",
-			["tV"] = 1018,
-			["dV"] = "1.3.4",
+			["SD"] = "31/03/20 19:52:34",
+			["CB"] = "Fifonzz-ArgentDawn",
+			["V"] = 4,
+			["SB"] = "Fifonzz-ArgentDawn",
+			["dV"] = "1.3.5.2",
 			["MO"] = "NO",
+			["tV"] = 1021,
 			["LO"] = "en",
-			["CB"] = "Janneté-ArgentDawn",
+			["CD"] = "11/03/20 20:20:57",
 		},
 		["CO"] = {
 			["OI"] = false,
@@ -276,31 +335,29 @@ TRP3_Exchange_DB = {
 			["DU"] = 0,
 			["MW"] = 0,
 		},
-		["details"] = {
-		},
-		["US"] = {
-			["AC"] = "Read document",
-			["SC"] = "onUse",
-		},
+		["securityLevel"] = 3,
 		["BA"] = {
-			["DE"] = "A note under the ribbon recommends you share this with your friends!",
-			["PS"] = 1186,
-			["US"] = true,
+			["PS"] = 1188,
+			["IC"] = "ivn_helm_cloth_warfrontshorde_b_01",
+			["LE"] = "It's just a test",
 			["CO"] = false,
-			["NA"] = "Redbrew Happy Hour!",
+			["NA"] = "Test item",
 			["ST"] = false,
-			["QA"] = 2,
+			["QA"] = 3,
 			["PA"] = false,
-			["UN"] = false,
-			["VA"] = 0,
-			["CR"] = false,
-			["DS"] = 1203,
-			["WA"] = false,
-			["SB"] = false,
-			["IC"] = "inv_scroll_16",
+			["WA"] = true,
+			["VA"] = 10000,
+			["CR"] = true,
+			["DS"] = 1206,
+			["US"] = false,
 			["QE"] = false,
+			["UN"] = 1,
+			["SB"] = false,
 			["CT"] = false,
 			["WE"] = 0,
+		},
+		["US"] = {
+			["SC"] = "onUse",
 		},
 	},
 	["01301645396yvma"] = {
@@ -607,8 +664,9 @@ TRP3_Security = {
 	},
 	["sender"] = {
 		["0130164302QCfjF"] = "Looradeii-ArgentDawn",
-		["0314164253oakUK"] = "Darenin-ArgentDawn",
 		["0223205113fYGEU"] = "Janneté-ArgentDawn",
+		["0314164253oakUK"] = "Darenin-ArgentDawn",
+		["03112020572xpXI"] = "Fifonzz-ArgentDawn",
 		["01301645396yvma"] = "Looradeii-ArgentDawn",
 		["1124105229jy4At"] = "Barktender-ArgentDawn",
 		["031418552367uAp"] = "Archfyre-ArgentDawn",
@@ -625,6 +683,19 @@ TRP3_Drop = {
 	["Quel'Thalas"] = {
 	},
 	["Argent Dawn"] = {
+		{
+			["uiMapID"] = 85,
+			["posY"] = 1913.099975585938,
+			["posX"] = -4530.30029296875,
+			["mapY"] = 0.4945967793464661,
+			["posZ"] = 0,
+			["item"] = {
+				["madeBy"] = "Fifonzz-ArgentDawn",
+				["count"] = 1,
+				["id"] = "03112020572xpXI",
+			},
+			["mapX"] = 0.5886849164962769,
+		}, -- [1]
 	},
 }
 TRP3_Stashes = {

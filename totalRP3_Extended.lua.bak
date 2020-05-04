@@ -197,6 +197,366 @@ TRP3_Exchange_DB = {
 			["WE"] = 2,
 		},
 	},
+	["0130164302QCfjF"] = {
+		["IN"] = {
+		},
+		["TY"] = "IT",
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "sound_id_self",
+								["args"] = {
+									"SFX", -- [1]
+									45, -- [2]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+						["n"] = "2",
+					},
+					["4"] = {
+						["e"] = {
+							{
+								["id"] = "item_consume",
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
+					["3"] = {
+						["e"] = {
+							{
+								["id"] = "speech_player",
+								["args"] = {
+									"/e", -- [1]
+									"Eats a strand of Jerky", -- [2]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+						["n"] = "4",
+					},
+					["2"] = {
+						["e"] = {
+							{
+								["id"] = "item_cooldown",
+								["args"] = {
+									"10", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+						["n"] = "3",
+					},
+				},
+			},
+		},
+		["details"] = {
+			["SEC_REASON_TALK"] = {
+				"0130164302QCfjF", -- [1]
+			},
+		},
+		["MD"] = {
+			["LO"] = "en",
+			["SB"] = "Looradeii-ArgentDawn",
+			["V"] = 34,
+			["CB"] = "Yukisoren-ArgentDawn",
+			["dV"] = "1.3.4",
+			["MO"] = "NO",
+			["tV"] = 1018,
+			["CD"] = "30/01/20 16:43:02",
+			["SD"] = "08/02/20 18:45:32",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
+		["securityLevel"] = 1,
+		["US"] = {
+			["SC"] = "onUse",
+			["AC"] = "Eat me",
+		},
+		["BA"] = {
+			["PS"] = 1186,
+			["US"] = true,
+			["LE"] = "Beef Jerky marinated in Honey",
+			["CO"] = false,
+			["NA"] = "Honeyed Jerky",
+			["ST"] = 100,
+			["QA"] = 1,
+			["PA"] = true,
+			["UN"] = false,
+			["QE"] = false,
+			["CR"] = false,
+			["DS"] = 1203,
+			["IC"] = "inv_misc_food_vendor_toastedfishjerky",
+			["SB"] = false,
+			["VA"] = 0,
+			["WA"] = false,
+			["CT"] = false,
+			["WE"] = 0,
+		},
+	},
+	["03112020572xpXI"] = {
+		["IN"] = {
+		},
+		["TY"] = "IT",
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+				},
+			},
+		},
+		["details"] = {
+		},
+		["NT"] = "AAAAAAAA",
+		["MD"] = {
+			["SD"] = "31/03/20 19:52:34",
+			["CB"] = "Fifonzz-ArgentDawn",
+			["V"] = 4,
+			["CD"] = "11/03/20 20:20:57",
+			["LO"] = "en",
+			["tV"] = 1021,
+			["MO"] = "NO",
+			["dV"] = "1.3.5.2",
+			["SB"] = "Fifonzz-ArgentDawn",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["MW"] = 0,
+			["DU"] = 0,
+			["SC"] = "4",
+			["SI"] = "5x4",
+			["SR"] = "5",
+		},
+		["US"] = {
+			["SC"] = "onUse",
+		},
+		["BA"] = {
+			["PS"] = 1188,
+			["IC"] = "ivn_helm_cloth_warfrontshorde_b_01",
+			["LE"] = "It's just a test",
+			["CO"] = false,
+			["NA"] = "Test item",
+			["ST"] = false,
+			["QA"] = 3,
+			["PA"] = false,
+			["WA"] = true,
+			["VA"] = 10000,
+			["CR"] = true,
+			["DS"] = 1206,
+			["US"] = false,
+			["QE"] = false,
+			["SB"] = false,
+			["UN"] = 1,
+			["CT"] = false,
+			["WE"] = 0,
+		},
+		["securityLevel"] = 3,
+	},
+	["01301645396yvma"] = {
+		["IN"] = {
+			["doc"] = {
+				["TY"] = "DO",
+				["LI"] = {
+				},
+				["MD"] = {
+					["MO"] = "NO",
+				},
+				["HA"] = {
+				},
+				["HE"] = 600,
+				["BT"] = true,
+				["SC"] = {
+				},
+				["PA"] = {
+					{
+						["TX"] = "{h1:c}Asleepen{/h1}\n\n{p:c}Hello Straanger!\n\nYou found my little stash! awesome! please feel free to take as muuch Jerky as you'd like, Better than that Swampweed stuff those cultists are leaving here.\n\n\nYours in kindness\nYuki Padley\n\nP.S if this gets back to those cultist wacko's my message to them is as follows; Asleepen!{/p}",
+					}, -- [1]
+				},
+				["BCK"] = 8,
+				["BO"] = 1,
+				["H3_F"] = "GameFontNormalLarge",
+				["FR"] = false,
+				["WI"] = 450,
+				["H1_F"] = "DestinyFontHuge",
+				["H2_F"] = "QuestFont_Huge",
+				["P_F"] = "GameTooltipHeader",
+				["BA"] = {
+					["NA"] = "Document",
+				},
+			},
+		},
+		["BA"] = {
+			["DE"] = "Read me!",
+			["PS"] = 1192,
+			["IC"] = "inv_inscription_papyrus",
+			["CO"] = false,
+			["NA"] = "A Handwritten Note",
+			["ST"] = 20,
+			["QA"] = 1,
+			["PA"] = false,
+			["WA"] = false,
+			["VA"] = 0,
+			["CR"] = false,
+			["DS"] = 1209,
+			["US"] = true,
+			["SB"] = false,
+			["QE"] = false,
+			["UN"] = false,
+			["CT"] = false,
+			["WE"] = 0,
+		},
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "document_show",
+								["args"] = {
+									"01301645396yvma doc", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
+				},
+			},
+		},
+		["details"] = {
+		},
+		["NT"] = "test",
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
+		["securityLevel"] = 3,
+		["TY"] = "IT",
+		["MD"] = {
+			["LO"] = "en",
+			["CB"] = "Yukisoren-ArgentDawn",
+			["V"] = 13,
+			["CD"] = "30/01/20 16:45:39",
+			["tV"] = 1018,
+			["dV"] = "1.3.4",
+			["MO"] = "NO",
+			["SD"] = "02/02/20 18:20:11",
+			["SB"] = "Yukisoren-ArgentDawn",
+		},
+	},
+	["0223205113fYGEU"] = {
+		["IN"] = {
+			["doc"] = {
+				["TY"] = "DO",
+				["LI"] = {
+				},
+				["MD"] = {
+					["MO"] = "NO",
+				},
+				["HA"] = {
+				},
+				["HE"] = 600,
+				["BT"] = true,
+				["SC"] = {
+				},
+				["PA"] = {
+					{
+						["TX"] = "__________________________________________\n\n\n\n\n\n\n{h1:c}Redbrew Happy Hour{/h1}\n\n{h2:c}The Redbrew Tavern Company happily invites one and all to come experience a night of cocktails, food and entertainment!{/h2}\n\n{h3:c}For one hour from 9:30 pm to 10:30 pm{/h3}\n{h3:c}On Thursday the 27th of Febuary{/h3}\n{h3:c}We will offer heavy discounts on drinks!{/h3}\n\n{h2:c}Come along and check it out!{/h2}\n\n\n\n___________________________________________",
+					}, -- [1]
+				},
+				["BCK"] = 8,
+				["BA"] = {
+					["NA"] = "Document",
+				},
+				["P_F"] = "GameTooltipHeader",
+				["FR"] = false,
+				["WI"] = 450,
+				["H1_F"] = "DestinyFontHuge",
+				["H2_F"] = "QuestFont_Huge",
+				["H3_F"] = "QuestFont_Huge",
+				["BO"] = 1,
+			},
+		},
+		["TY"] = "IT",
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "document_show",
+								["args"] = {
+									"0223205113fYGEU doc", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
+				},
+			},
+		},
+		["securityLevel"] = 3,
+		["MD"] = {
+			["CD"] = "23/02/20 20:51:13",
+			["SB"] = "Janneté-ArgentDawn",
+			["V"] = 6,
+			["CB"] = "Janneté-ArgentDawn",
+			["LO"] = "en",
+			["MO"] = "NO",
+			["dV"] = "1.3.4",
+			["tV"] = 1018,
+			["SD"] = "24/02/20 21:40:05",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["MW"] = 0,
+			["DU"] = 0,
+			["SC"] = "4",
+			["SI"] = "5x4",
+			["SR"] = "5",
+		},
+		["BA"] = {
+			["DE"] = "A note under the ribbon recommends you share this with your friends!",
+			["PS"] = 1186,
+			["US"] = true,
+			["CO"] = false,
+			["NA"] = "Redbrew Happy Hour!",
+			["ST"] = false,
+			["QA"] = 2,
+			["PA"] = false,
+			["UN"] = false,
+			["VA"] = 0,
+			["CR"] = false,
+			["DS"] = 1203,
+			["WA"] = false,
+			["SB"] = false,
+			["QE"] = false,
+			["IC"] = "inv_scroll_16",
+			["CT"] = false,
+			["WE"] = 0,
+		},
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
+		},
+		["details"] = {
+		},
+	},
 	["031418552367uAp"] = {
 		["IN"] = {
 			["doc"] = {
@@ -298,13 +658,21 @@ TRP3_Exchange_DB = {
 }
 TRP3_Security = {
 	["specific"] = {
+		["0130164302QCfjF"] = {
+			["SEC_REASON_TALK"] = true,
+		},
 	},
 	["sender"] = {
 		["0314164253oakUK"] = "Darenin-ArgentDawn",
 		["1124105229jy4At"] = "Barktender-ArgentDawn",
+		["0130164302QCfjF"] = "Looradeii-ArgentDawn",
+		["03112020572xpXI"] = "Fifonzz-ArgentDawn",
+		["01301645396yvma"] = "Looradeii-ArgentDawn",
+		["0223205113fYGEU"] = "Janneté-ArgentDawn",
 		["031418552367uAp"] = "Archfyre-ArgentDawn",
 	},
 	["global"] = {
+		["SEC_REASON_TALK"] = false,
 	},
 	["whitelist"] = {
 	},
@@ -315,6 +683,19 @@ TRP3_Drop = {
 	["Quel'Thalas"] = {
 	},
 	["Argent Dawn"] = {
+		{
+			["uiMapID"] = 85,
+			["posY"] = 1913.099975585938,
+			["posX"] = -4530.30029296875,
+			["mapY"] = 0.4945967793464661,
+			["posZ"] = 0,
+			["mapX"] = 0.5886849164962769,
+			["item"] = {
+				["madeBy"] = "Fifonzz-ArgentDawn",
+				["count"] = 1,
+				["id"] = "03112020572xpXI",
+			},
+		}, -- [1]
 	},
 }
 TRP3_Stashes = {
