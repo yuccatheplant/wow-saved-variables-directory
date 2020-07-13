@@ -1,79 +1,5 @@
 
 TRP3_Profiles = {
-	["0327213047JZwig"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["RA"] = "Human",
-				["LN"] = "Character",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["v"] = 4,
-				["CL"] = "Banker",
-				["FN"] = "Banker",
-				["IC"] = "inv_misc_coin_02",
-				["TI"] = "Just a",
-				["RS"] = 0,
-				["CH"] = "ffffff",
-			},
-			["character"] = {
-				["CU"] = "",
-				["CO"] = "",
-				["RP"] = 2,
-				["LC"] = "enUS",
-				["XP"] = 1,
-				["v"] = 5,
-			},
-			["about"] = {
-				["T2"] = {
-				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
-			},
-			["misc"] = {
-				["ST"] = {
-					["1"] = 5,
-					["3"] = 0,
-					["2"] = 0,
-					["5"] = 0,
-					["4"] = 0,
-					["6"] = 0,
-				},
-				["PE"] = {
-				},
-				["v"] = 8,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "_Just Banker",
-	},
 	["04172110102jBOC"] = {
 		["inventory"] = {
 			["init"] = true,
@@ -145,7 +71,7 @@ TRP3_Profiles = {
 		},
 		["profileName"] = "_OOC",
 	},
-	["0430190512nszsi"] = {
+	["0327213047JZwig"] = {
 		["inventory"] = {
 			["init"] = true,
 			["id"] = "main",
@@ -163,21 +89,27 @@ TRP3_Profiles = {
 		},
 		["player"] = {
 			["characteristics"] = {
-				["CL"] = "Monk",
-				["RA"] = "Pandaren",
-				["FN"] = "Rifeng",
+				["RA"] = "Human",
+				["LN"] = "Character",
 				["MI"] = {
 				},
 				["PS"] = {
 				},
-				["IC"] = "Achievement_Character_Pandaren_Female",
-				["v"] = 1,
+				["v"] = 4,
+				["CL"] = "Banker",
+				["FN"] = "Banker",
+				["IC"] = "inv_misc_coin_02",
+				["TI"] = "Just a",
+				["RS"] = 0,
+				["CH"] = "ffffff",
 			},
 			["character"] = {
+				["CU"] = "",
+				["CO"] = "",
 				["RP"] = 1,
 				["LC"] = "enUS",
-				["XP"] = 2,
-				["v"] = 1,
+				["XP"] = 1,
+				["v"] = 6,
 			},
 			["about"] = {
 				["T2"] = {
@@ -197,93 +129,21 @@ TRP3_Profiles = {
 			},
 			["misc"] = {
 				["ST"] = {
-				},
-				["PE"] = {
-				},
-				["v"] = 1,
-			},
-		},
-		["questlog"] = {
-		},
-		["profileName"] = "Argent Dawn - Rifeng",
-	},
-	["0502202139kwqh2"] = {
-		["inventory"] = {
-			["init"] = true,
-			["id"] = "main",
-			["totalWeight"] = 500,
-			["content"] = {
-				["17"] = {
-					["id"] = "bag",
-					["totalWeight"] = 500,
-					["content"] = {
-					},
-					["totalValue"] = 0,
-				},
-			},
-			["totalValue"] = 0,
-		},
-		["player"] = {
-			["characteristics"] = {
-				["RA"] = "Pandaren",
-				["MI"] = {
-				},
-				["PS"] = {
-				},
-				["FN"] = "Minsohu",
-				["RS"] = 0,
-				["IC"] = "Achievement_Guild_ClassyPanda",
-				["v"] = 10,
-				["FT"] = "Hunter",
-				["CL"] = "Monk",
-				["EC"] = "Brown",
-				["EH"] = "4b2315",
-				["HE"] = "183cm",
-				["AG"] = "21",
-			},
-			["character"] = {
-				["v"] = 8,
-				["CO"] = "-WIP",
-				["RP"] = 2,
-				["LC"] = "enUS",
-				["XP"] = 2,
-				["CU"] = "",
-			},
-			["misc"] = {
-				["PE"] = {
-				},
-				["ST"] = {
-					["1"] = 4,
-					["3"] = 3,
-					["2"] = 1,
+					["1"] = 5,
+					["3"] = 0,
+					["2"] = 0,
 					["5"] = 0,
 					["4"] = 0,
 					["6"] = 0,
 				},
-				["v"] = 10,
-			},
-			["about"] = {
-				["T2"] = {
+				["PE"] = {
 				},
-				["T3"] = {
-					["PH"] = {
-					},
-					["PS"] = {
-					},
-					["HI"] = {
-					},
-				},
-				["TE"] = 1,
-				["T1"] = {
-				},
-				["v"] = 1,
+				["v"] = 8,
 			},
 		},
 		["questlog"] = {
 		},
-		["notes"] = {
-		},
-		["profileName"] = "Minsohu",
+		["profileName"] = "_Just Banker",
 	},
 	["0301221101jbTao"] = {
 		["inventory"] = {
@@ -292,15 +152,15 @@ TRP3_Profiles = {
 			["totalWeight"] = 500,
 			["content"] = {
 				["17"] = {
-					["relativePoint"] = "RIGHT",
+					["totalValue"] = 0,
 					["totalWeight"] = 500,
 					["point"] = "RIGHT",
-					["totalValue"] = 0,
-					["yOfs"] = -56.16881561279297,
+					["relativePoint"] = "RIGHT",
+					["id"] = "bag",
 					["xOfs"] = -270.4979248046875,
 					["content"] = {
 					},
-					["id"] = "bag",
+					["yOfs"] = -56.16881561279297,
 				},
 			},
 			["totalValue"] = 0,
@@ -318,21 +178,22 @@ TRP3_Profiles = {
 			["0218094111URTwa"] = "FRIEND",
 			["0719125548aZ7TY"] = "UNFRIENDLY",
 			["04241252074LzP9"] = "NEUTRAL",
+			["0325134730x9jZU"] = "FRIEND",
 			["1016130636GXilL"] = "FRIEND",
 			["11280322062X271"] = "FRIEND",
 			["0422135637M1wug"] = "NEUTRAL",
 			["0126183251L6mLU"] = "FRIEND",
 			["0329205832Gidfc"] = "NEUTRAL",
 			["0302005803fTMyw"] = "FRIEND",
-			["06052228105TqYg"] = "FRIEND",
+			["0706000137bgK2a"] = "BUSINESS",
 			["0421124632eyzLE"] = "FRIEND",
 			["12112031452WfU0"] = "NEUTRAL",
 			["0514191418NGnPZ"] = "BUSINESS",
 			["1123235404FRD4L"] = "NEUTRAL",
-			["0331082350H9Dlu"] = "FRIEND",
 			["0309182257czk9c"] = "NEUTRAL",
+			["0331082350H9Dlu"] = "FRIEND",
 			["1118151851QiWqk"] = "FRIEND",
-			["0706000137bgK2a"] = "BUSINESS",
+			["06052228105TqYg"] = "FRIEND",
 			["1124233901VFlQO"] = "FRIEND",
 			["04191657255GVHJ"] = "NEUTRAL",
 		},
@@ -373,13 +234,13 @@ TRP3_Profiles = {
 				["CH"] = "00d357",
 				["RA"] = "Gilnean Human",
 				["BP"] = "Duskhaven - Gilneas",
-				["v"] = 37,
+				["v"] = 39,
 				["RE"] = "Tushui bunkhouse - Stormwind",
 				["PS"] = {
 				},
 				["FT"] = "Field medic || Monk trainee",
 				["EC"] = "Green",
-				["CL"] = "Monk trainee",
+				["CL"] = " ",
 				["TI"] = "\"Doctor\"",
 				["AG"] = "26",
 				["WE"] = "Slim",
@@ -387,10 +248,10 @@ TRP3_Profiles = {
 			["character"] = {
 				["CU"] = "",
 				["CO"] = "",
-				["RP"] = 1,
+				["RP"] = 2,
 				["LC"] = "enUS",
 				["XP"] = 1,
-				["v"] = 17,
+				["v"] = 26,
 			},
 			["about"] = {
 				["T2"] = {
@@ -480,11 +341,11 @@ TRP3_Profiles = {
 				["CL"] = "Hunter",
 				["RA"] = "Tauren",
 				["RS"] = 0,
-				["FN"] = "Yenuthie",
-				["MI"] = {
-				},
 				["PS"] = {
 				},
+				["MI"] = {
+				},
+				["FN"] = "Yenuthie",
 				["IC"] = "Achievement_Character_Tauren_Male",
 				["v"] = 3,
 			},
@@ -520,9 +381,9 @@ TRP3_Profiles = {
 		},
 		["questlog"] = {
 		},
-		["profileName"] = "Argent Dawn - Yenuthie",
+		["profileName"] = "Yenuthie",
 	},
-	["0502195745HZ2rk"] = {
+	["0502202139kwqh2"] = {
 		["inventory"] = {
 			["init"] = true,
 			["id"] = "main",
@@ -540,21 +401,42 @@ TRP3_Profiles = {
 		},
 		["player"] = {
 			["characteristics"] = {
-				["CL"] = "Rogue",
 				["RA"] = "Pandaren",
-				["FN"] = "Dohoen",
 				["MI"] = {
 				},
 				["PS"] = {
 				},
+				["FN"] = "Minsohu",
+				["AG"] = "21",
 				["IC"] = "Achievement_Guild_ClassyPanda",
-				["v"] = 1,
+				["v"] = 10,
+				["FT"] = "Hunter",
+				["CL"] = "Monk",
+				["EC"] = "Brown",
+				["EH"] = "4b2315",
+				["HE"] = "183cm",
+				["RS"] = 0,
 			},
 			["character"] = {
+				["v"] = 8,
+				["CO"] = "-WIP",
 				["RP"] = 2,
 				["LC"] = "enUS",
 				["XP"] = 2,
-				["v"] = 2,
+				["CU"] = "",
+			},
+			["misc"] = {
+				["PE"] = {
+				},
+				["ST"] = {
+					["1"] = 4,
+					["3"] = 3,
+					["2"] = 1,
+					["5"] = 0,
+					["4"] = 0,
+					["6"] = 0,
+				},
+				["v"] = 10,
 			},
 			["about"] = {
 				["T2"] = {
@@ -572,17 +454,12 @@ TRP3_Profiles = {
 				},
 				["v"] = 1,
 			},
-			["misc"] = {
-				["ST"] = {
-				},
-				["PE"] = {
-				},
-				["v"] = 1,
-			},
 		},
 		["questlog"] = {
 		},
-		["profileName"] = "Argent Dawn - Dohoen",
+		["notes"] = {
+		},
+		["profileName"] = "Minsohu",
 	},
 }
 TRP3_Characters = {
@@ -619,8 +496,14 @@ TRP3_Characters = {
 	["Yenuthile-Drak'thul"] = {
 		["profileID"] = "04172110102jBOC",
 	},
+	["Xioniu-ArgentDawn"] = {
+		["profileID"] = "04172110102jBOC",
+	},
 	["Tosmun-ArgentDawn"] = {
 		["profileID"] = "0301221101jbTao",
+	},
+	["Dograem-ArgentDawn"] = {
+		["profileID"] = "0409165547dmiRe",
 	},
 	["Rifeng-ArgentDawn"] = {
 		["profileID"] = "0430190512nszsi",
@@ -638,14 +521,14 @@ TRP3_Characters = {
 	["Dohoen-ArgentDawn"] = {
 		["profileID"] = "0502195745HZ2rk",
 	},
-	["Dograem-ArgentDawn"] = {
-		["profileID"] = "0409165547dmiRe",
+	["Wadetosmun-ArgentDawn"] = {
+		["profileID"] = "0301221101jbTao",
 	},
 }
 TRP3_Configuration = {
 	["HIDE_MAP_BUTTON_IF_EMPTY"] = false,
 	["toolbar_hide_title"] = false,
-	["CONFIG_TARGET_POS_X"] = -77.79348754882812,
+	["CONFIG_TARGET_POS_X"] = -246.2998809814453,
 	["register_mature_filter"] = false,
 	["CONFIG_GLANCE_PARENT"] = "TRP3_TargetFrame",
 	["target_content_aa_player_b_music"] = true,
@@ -660,7 +543,7 @@ TRP3_Configuration = {
 	["target_icon_size"] = 30,
 	["toolbar_show_on_login"] = true,
 	["increase_color_contrast"] = true,
-	["CONFIG_TARGET_POS_Y"] = 114.6663131713867,
+	["CONFIG_TARGET_POS_Y"] = 116.826530456543,
 	["minimap_show"] = true,
 	["target_content_quest_action_LISTEN"] = true,
 	["chat_use_CHAT_MSG_WHISPER"] = true,
@@ -732,9 +615,9 @@ TRP3_Configuration = {
 	["tooltip_profile_only"] = true,
 	["extended_music_method"] = "a",
 	["extended_weight_unit"] = "g",
-	["tooltip_char_AnchoredFrame"] = "GameTooltip",
+	["chat_use_CHAT_MSG_GUILD"] = true,
 	["AddonLocale"] = "enUS",
-	["chat_color"] = true,
+	["tooltip_char_current_size"] = 140,
 	["ui_animations"] = true,
 	["MAKE_SURE_BROADCAST_CHANNEL_IS_LAST"] = true,
 	["chat_npc_talk"] = true,
@@ -755,34 +638,34 @@ TRP3_Configuration = {
 	["CONFIG_TOOLBAR_POS_X"] = -173.4765625,
 	["AF_STUFF"] = false,
 	["tooltip_pets_icons"] = true,
-	["chat_show_icon"] = true,
+	["toolbar_content_ww_trp3_languages"] = true,
 	["chat_use_CHAT_MSG_EMOTE"] = true,
 	["toolbar_max_per_line"] = 7,
 	["chat_use_CHAT_MSG_SAY"] = true,
+	["toolbar_content_bb_extended_sounds"] = true,
+	["target_content_quest_action_LOOK"] = true,
 	["MODULE_ACTIVATION"] = {
 		["trp3_tinytooltip"] = true,
 		["trp3_chatframes"] = true,
-		["trp3_extended_tools"] = true,
+		["trp3_target_bar"] = true,
 		["trp3_tool_bar"] = true,
 		["trp3_mature_filter"] = true,
 		["trp3_elvui"] = true,
-		["trp3_target_bar"] = true,
+		["trp3_extended_tools"] = true,
 		["trp3_glance_bar"] = true,
-		["trp3_msp"] = true,
+		["trp3_wim"] = true,
 		["trp3_elvui_chat"] = true,
 		["trp3_prat"] = true,
 		["trp3_extended"] = true,
 		["trp3_tooltips"] = true,
 		["trp3_tiptac"] = true,
-		["trp3_wim"] = true,
+		["trp3_msp"] = true,
 	},
-	["target_content_quest_action_LOOK"] = true,
-	["toolbar_content_bb_extended_sounds"] = true,
 	["CONFIG_GLANCE_ANCHOR_Y"] = -14,
-	["chat_use_CHAT_MSG_TEXT_EMOTE"] = true,
-	["chat_disable_ooc"] = false,
 	["MAP_BUTTON_POSITION"] = "TOPLEFT",
 	["target_content_quest_action_TALK"] = true,
+	["chat_use_CHAT_MSG_TEXT_EMOTE"] = true,
+	["chat_disable_ooc"] = false,
 	["config_register_about_h1_size"] = 25,
 	["toolbar_content_bb_trp3_npctalk"] = true,
 	["tooltip_char_realm"] = true,
@@ -791,15 +674,15 @@ TRP3_Configuration = {
 	["target_content_aa_player_d_relation"] = true,
 	["CONFIG_RIGHT_CLICK_OPEN_PROFILE_MODIFIER_KEY"] = 1,
 	["tooltip_crop_text"] = true,
-	["toolbar_content_ww_trp3_languages"] = true,
+	["chat_show_icon"] = true,
 	["chat_language_remember_last_used"] = true,
 	["ui_sounds"] = true,
 	["target_content_bb_companion_profile"] = true,
 	["register_map_location"] = true,
 	["target_content_aa_player_w_mature_remove_white_list"] = true,
 	["target_content_aa_player_a_page"] = true,
-	["tooltip_char_current_size"] = 140,
-	["chat_use_CHAT_MSG_GUILD"] = true,
+	["chat_color"] = true,
+	["tooltip_char_AnchoredFrame"] = "GameTooltip",
 	["register_sanitization"] = true,
 	["target_content_za_notes"] = true,
 	["tooltip_char_notif"] = true,
@@ -809,7 +692,7 @@ TRP3_Configuration = {
 }
 TRP3_Flyway = {
 	["currentBuild"] = 12,
-	["log"] = "Patch applied from 12 to 12 on 01/07/20 21:20:45",
+	["log"] = "Patch applied from 12 to 12 on 04/07/20 23:18:37",
 }
 TRP3_Presets = {
 	["peek"] = {
@@ -1009,10 +892,10 @@ TRP3_MatureFilter = {
 		["faggot"] = 1,
 		["pole smoker"] = 1,
 		["hot carl"] = 1,
-		["strip club"] = 1,
+		["jail bait"] = 1,
 		["ponyplay"] = 1,
 		["doggiestyle"] = 1,
-		["jail bait"] = 1,
+		["strip club"] = 1,
 		["spunk"] = 1,
 		["creampie"] = 1,
 		["blonde on blonde action"] = 1,
@@ -1031,9 +914,9 @@ TRP3_MatureFilter = {
 		["yiffy"] = 1,
 		["threesome"] = 1,
 		["strappado"] = 1,
-		["white power"] = 1,
-		["fuckin"] = 1,
 		["nambla"] = 1,
+		["fuckin"] = 1,
+		["white power"] = 1,
 		["splooge"] = 1,
 		["pisspig"] = 1,
 		["lemon party"] = 1,
@@ -1050,8 +933,8 @@ TRP3_MatureFilter = {
 		["kinky"] = 1,
 		["blow your load"] = 1,
 		["barely legal"] = 1,
-		["cock"] = 1,
 		["sexy"] = 1,
+		["cock"] = 1,
 		["shrimping"] = 1,
 		["spic"] = 1,
 		["omorashi"] = 1,
@@ -1068,11 +951,11 @@ TRP3_MatureFilter = {
 		["hardcore"] = 1,
 		["doggy style"] = 1,
 		["wetback"] = 1,
-		["baby juice"] = 1,
+		["carpetmuncher"] = 1,
 		["spooge"] = 1,
 		["zoophilia"] = 1,
 		["shitblimp"] = 1,
-		["anal"] = 1,
+		["tranny"] = 1,
 		["spread legs"] = 1,
 		["swastika"] = 1,
 		["vibrator"] = 1,
@@ -1091,10 +974,10 @@ TRP3_MatureFilter = {
 		["tainted love"] = 1,
 		["dendrophilia"] = 1,
 		["queef"] = 1,
-		["guro"] = 1,
+		["rectum"] = 1,
 		["rosy palm and her 5 sisters"] = 1,
 		["missionary position"] = 1,
-		["rectum"] = 1,
+		["guro"] = 1,
 		["goatse"] = 1,
 		["raging boner"] = 1,
 		["sultry women"] = 1,
@@ -1110,17 +993,17 @@ TRP3_MatureFilter = {
 		["rimjob"] = 1,
 		["bullet vibe"] = 1,
 		["voyeur"] = 1,
-		["bulldyke"] = 1,
-		["bung hole"] = 1,
 		["kinkster"] = 1,
+		["bung hole"] = 1,
+		["bulldyke"] = 1,
 		["masturbate"] = 1,
 		["yellow showers"] = 1,
 		["autoerotic"] = 1,
-		["mound of venus"] = 1,
+		["wet dream"] = 1,
 		["coon"] = 1,
 		["huge fat"] = 1,
 		["tosser"] = 1,
-		["snatch"] = 1,
+		["pegging"] = 1,
 		["paki"] = 1,
 		["goatcx"] = 1,
 		["cocks"] = 1,
@@ -1137,13 +1020,13 @@ TRP3_MatureFilter = {
 		["shibari"] = 1,
 		["double penetration"] = 1,
 		["suicide girls"] = 1,
-		["pussy"] = 1,
-		["ass"] = 1,
 		["taste my"] = 1,
+		["ass"] = 1,
+		["pussy"] = 1,
 		["sucks"] = 1,
 		["slanteye"] = 1,
 		["fingerbang"] = 1,
-		["camel toe"] = 1,
+		["feltch"] = 1,
 		["coons"] = 1,
 		["pissing"] = 1,
 		["piece of shit"] = 1,
@@ -1153,7 +1036,7 @@ TRP3_MatureFilter = {
 		["cleveland steamer"] = 1,
 		["beaver lips"] = 1,
 		["pedophile"] = 1,
-		["feltch"] = 1,
+		["camel toe"] = 1,
 		["nigga"] = 1,
 		["panty"] = 1,
 		["pleasure chest"] = 1,
@@ -1164,10 +1047,10 @@ TRP3_MatureFilter = {
 		["anilingus"] = 1,
 		["poon"] = 1,
 		["clusterfuck"] = 1,
-		["pegging"] = 1,
+		["snatch"] = 1,
 		["wrapping men"] = 1,
 		["juggs"] = 1,
-		["wet dream"] = 1,
+		["mound of venus"] = 1,
 		["kike"] = 1,
 		["goodpoop"] = 1,
 		["two girls one cup"] = 1,
@@ -1190,9 +1073,9 @@ TRP3_MatureFilter = {
 		["scat"] = 1,
 		["nipple"] = 1,
 		["rusty trombone"] = 1,
-		["tranny"] = 1,
+		["anal"] = 1,
 		["gokkun"] = 1,
-		["carpetmuncher"] = 1,
+		["baby juice"] = 1,
 		["semen"] = 1,
 		["poof"] = 1,
 		["mr hands"] = 1,

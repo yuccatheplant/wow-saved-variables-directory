@@ -1,32 +1,4 @@
 
-AUCTIONATOR_CONFIG = {
-	["not_lifo_auction_duration"] = 48,
-	["silence_auction_errors"] = true,
-	["not_lifo_auction_sales_preference"] = "percentage",
-	["shift_stack_tooltips"] = true,
-	["lifo_auction_duration"] = 24,
-	["lifo_undercut_percentage"] = 0,
-	["hide_splash_screen"] = false,
-	["enchant_tooltips"] = true,
-	["autoscan"] = true,
-	["auction_tooltips"] = true,
-	["feature_selling_1"] = true,
-	["alternate_scan_mode"] = false,
-	["debug"] = false,
-	["vendor_tooltips"] = true,
-	["auction_chat_log"] = true,
-	["mailbox_tooltips"] = true,
-	["auto_list_search"] = true,
-	["price_history_days"] = 21,
-	["pet_tooltips"] = true,
-	["not_lifo_undercut_static_value"] = 0,
-	["lifo_auction_sales_preference"] = "percentage",
-	["lifo_undercut_static_value"] = 0,
-	["splash_screen_version"] = "anything",
-	["full_scan_step"] = 250,
-	["not_lifo_undercut_percentage"] = 0,
-	["undercut_scan_not_lifo"] = true,
-}
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
@@ -37,6 +9,8 @@ AUCTIONATOR_SAVEDVARS = {
 	["STARTING_DISCOUNT"] = 5,
 	["_5000000"] = 10000,
 	["_10000"] = 200,
+}
+AUCTIONATOR_PRICING_HISTORY = {
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
@@ -58,8 +32,42 @@ AUCTIONATOR_SHOPPING_LISTS = {
 		["isSorted"] = false,
 	}, -- [2]
 }
+AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
 AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 6,
+	["Argent Dawn_Alliance"] = {
+	},
+	["Argent Dawn_Neutral"] = {
+	},
 	["Argent Dawn"] = {
 	},
 }
+AUCTIONATOR_LAST_SCAN_TIME = nil
+AUCTIONATOR_TOONS = {
+	["Abankeryucca"] = {
+		["firstSeen"] = 1593803276,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-3702-096C6A47",
+	},
+	["Xioniu"] = {
+		["firstSeen"] = 1593897516,
+		["guid"] = "Player-3702-09936861",
+		["firstVersion"] = "8.2.0",
+	},
+	["Wadetosmun"] = {
+		["firstSeen"] = 1593985154,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-3702-0993C06C",
+	},
+}
+AUCTIONATOR_STACKING_PREFS = {
+}
+AUCTIONATOR_SCAN_MINLEVEL = 1
+AUCTIONATOR_DB_MAXITEM_AGE = 180
+AUCTIONATOR_DB_MAXHIST_AGE = -1
+AUCTIONATOR_DB_MAXHIST_DAYS = 5
+AUCTIONATOR_FS_CHUNK = nil
+AUCTIONATOR_DE_DATA = nil
+AUCTIONATOR_DE_DATA_BAK = nil
+ITEM_ID_VERSION = "3.2.6"
+AUCTIONATOR_SHOW_MAILBOX_TIPS = nil
