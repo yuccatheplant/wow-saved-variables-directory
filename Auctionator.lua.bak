@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
-	["_10000"] = 200,
+	["STARTING_DISCOUNT"] = 5,
+	["LOG_DE_DATA_X"] = true,
 	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
-	["LOG_DE_DATA_X"] = true,
+	["_10000"] = 200,
+	["_200000"] = 1000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
@@ -34,9 +34,11 @@ AUCTIONATOR_SHOPPING_LISTS = {
 }
 AUCTIONATOR_SHOPPING_LISTS_MIGRATED_V2 = true
 AUCTIONATOR_PRICE_DATABASE = {
-	["__dbversion"] = 6,
 	["Argent Dawn_Alliance"] = {
 	},
+	["Argent Dawn_Horde"] = {
+	},
+	["__dbversion"] = 6,
 	["Argent Dawn_Neutral"] = {
 	},
 	["Argent Dawn"] = {
@@ -44,20 +46,35 @@ AUCTIONATOR_PRICE_DATABASE = {
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
-	["Abankeryucca"] = {
-		["firstSeen"] = 1593803276,
-		["guid"] = "Player-3702-096C6A47",
+	["Wadetos"] = {
+		["firstSeen"] = 1599252861,
 		["firstVersion"] = "8.2.0",
-	},
-	["Xioniu"] = {
-		["firstSeen"] = 1593897516,
-		["firstVersion"] = "8.2.0",
-		["guid"] = "Player-3702-09936861",
+		["guid"] = "Player-3702-09C15636",
 	},
 	["Wadetosmun"] = {
 		["firstSeen"] = 1593985154,
-		["guid"] = "Player-3702-0993BD02",
 		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-3702-0993C06C",
+	},
+	["Xioniu"] = {
+		["firstSeen"] = 1593897516,
+		["guid"] = "Player-3702-09936861",
+		["firstVersion"] = "8.2.0",
+	},
+	["Abankeryucca"] = {
+		["firstSeen"] = 1593803276,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-3702-096C6A47",
+	},
+	["Yenuthile"] = {
+		["firstSeen"] = 1599252380,
+		["guid"] = "Player-3702-09C155C4",
+		["firstVersion"] = "8.2.0",
+	},
+	["Veirne"] = {
+		["firstSeen"] = 1595961421,
+		["firstVersion"] = "8.2.0",
+		["guid"] = "Player-3702-099B8734",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
