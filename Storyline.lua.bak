@@ -1,42 +1,41 @@
 
 Storyline_Data = {
-	["RewardChoiceTutorial"] = 1,
 	["config"] = {
 		["dynamicBackgrounds"] = true,
 		["disableInInstances"] = true,
 		["textSpeedFactor"] = 0,
 		["useLayoutEngine"] = true,
 		["QuestTitle"] = {
-			["Font"] = "Friz Quadrata TT",
 			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
 		},
 		["locale"] = "enUS",
 		["DialogText"] = {
-			["Font"] = "Friz Quadrata TT",
 			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
 		},
 		["disableInDMF"] = true,
 		["useKeyboard"] = true,
 		["NPCName"] = {
-			["Font"] = "Friz Quadrata TT",
 			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
 		},
 		["forceGossip"] = true,
 		["width"] = 830,
-		["debug"] = false,
-		["autoEquip"] = false,
+		["NextAction"] = {
+			["Size"] = 10,
+			["Font"] = "Friz Quadrata TT",
+		},
+		["hideOriginalFrames"] = true,
+		["lockFrame"] = true,
+		["height"] = 519,
 		["DialogOptions"] = {
 			["Outline"] = "",
 			["Font"] = "Friz Quadrata TT",
 			["Size"] = 13,
 		},
-		["height"] = 519,
-		["lockFrame"] = true,
-		["hideOriginalFrames"] = true,
-		["NextAction"] = {
-			["Font"] = "Friz Quadrata TT",
-			["Size"] = 10,
-		},
+		["autoEquip"] = false,
+		["debug"] = false,
 	},
 	["customscale"] = {
 		["personal"] = {
@@ -44,6 +43,8 @@ Storyline_Data = {
 		["relative"] = {
 		},
 	},
+	["RewardChoiceTutorial"] = 1,
 	["npc_blacklist"] = {
 	},
+	["ScrollingDialogsTutorial"] = 1,
 }
