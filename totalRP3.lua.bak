@@ -97,7 +97,7 @@ TRP3_Profiles = {
 				},
 				["FN"] = "Ohann",
 				["IC"] = "Achievement_Character_Tauren_Female",
-				["v"] = 107,
+				["v"] = 123,
 			},
 			["character"] = {
 				["RP"] = 2,
@@ -400,32 +400,32 @@ TRP3_Profiles = {
 		},
 		["player"] = {
 			["characteristics"] = {
+				["EC"] = "Dark brown",
+				["RA"] = "Tauren",
+				["BP"] = "Barrens",
+				["LN"] = "Spiritshout",
 				["MI"] = {
 				},
-				["RA"] = "Tauren",
-				["EC"] = "Dark brown",
-				["LN"] = "Spiritshout",
-				["BP"] = "Barrens",
 				["FN"] = "Yenuthile",
 				["EH"] = "281903",
 				["AG"] = "Adult",
 				["IC"] = "inv_polearm_2h_heirloomspear_c_01",
-				["v"] = 23,
+				["v"] = 24,
 				["PS"] = {
 				},
 				["RS"] = 0,
 				["CL"] = "Rambler",
-				["FT"] = "Rambler || Treehugger",
+				["FT"] = "Rambler || Drunken treehugger || Accidental shaman",
 				["HE"] = "Average",
 				["CH"] = "203c18",
 			},
 			["character"] = {
-				["CU"] = "",
+				["CU"] = "-Good mood",
 				["CO"] = "-Walkups welcome",
 				["RP"] = 2,
 				["LC"] = "enUS",
 				["XP"] = 2,
-				["v"] = 60,
+				["v"] = 2,
 			},
 			["misc"] = {
 				["PE"] = {
@@ -468,23 +468,28 @@ TRP3_Profiles = {
 					["4"] = 0,
 					["6"] = 1,
 				},
-				["v"] = 50,
+				["v"] = 54,
 			},
 			["about"] = {
 				["T2"] = {
 				},
 				["T3"] = {
 					["PH"] = {
+						["BK"] = 1,
 					},
 					["PS"] = {
+						["BK"] = 1,
 					},
 					["HI"] = {
+						["BK"] = 1,
 					},
 				},
 				["TE"] = 1,
 				["T1"] = {
+					["TX"] = "HP: 6\nAdrenalin: 3\nMana: 1\n\nRacial: Earthmother's bounty: 15+ to environmental checks.",
 				},
-				["v"] = 1,
+				["BK"] = 1,
+				["v"] = 6,
 			},
 		},
 		["relation"] = {
@@ -532,7 +537,7 @@ TRP3_Profiles = {
 		["questlog"] = {
 		},
 		["notes"] = {
-			["0429003812dNQzx"] = "An'she - sun (679 hides)\nMu'sha - Elune - moon\n\nWarpaint:\nRed: War/Sucess/Energy/Strength\nBlue: Confidence\nGreen: Endurance\n\nYenuthile's mother - Tahki Springstream\nYenuthile's father - Ashnkii Spiritshout\n\nYenuthile's mother lives in Sun Rock Retreat in Stonetalon Mountains.\n\nRoyal Exchange room 217\n\n\nBlue and Green are sport fans - possible cause of diversion\nBalcony is dimly lit, but favored for sex\nNobody in a pool, it is oily and some tubes go towards sauna and main house from it.\nNear pool, there is goblin selling drinks. It seems all drinks at the party comes from this one person.\nTwo full plate guards at main building.\nMoxxo is doing DJ stuff, wearing weird steel mask. Near main building there are strong lights that might blind guards and visitors.\nEngineers works on pumps around Golf course pond. Probably trying to pump water out of there.\nDuring the fight, I counted 24 guards at the peacekeeping duty.\n\n\n\n\n",
+			["0429003812dNQzx"] = "An'she - sun (679 hides)\nMu'sha - Elune - moon\n\nWarpaint:\nRed: War/Sucess/Energy/Strength\nBlue: Confidence\nGreen: Endurance\n\nYenuthile's mother - Tahki Springstream\nYenuthile's father - Ashnkii Spiritshout\n\nYenuthile's mother lives in Sun Rock Retreat in Stonetalon Mountains.\n\nRoyal Exchange room 217\n\n\n\n\n",
 		},
 		["profileName"] = "Yenuthile",
 	},
@@ -589,8 +594,8 @@ TRP3_Profiles = {
 					},
 					["3"] = {
 						["AC"] = true,
-						["TI"] = "Leather Armor",
-						["TX"] = "-Combination of Fur and Leather armor\n-Leather dyed green",
+						["TI"] = "Leather plate Armor",
+						["TX"] = "-Leather dyed green",
 						["IC"] = "inv_chest_leather_raidmonk_q_01",
 					},
 					["2"] = {
@@ -608,7 +613,7 @@ TRP3_Profiles = {
 					["4"] = 0,
 					["6"] = 0,
 				},
-				["v"] = 14,
+				["v"] = 17,
 			},
 			["about"] = {
 				["T2"] = {
@@ -648,17 +653,20 @@ TRP3_Characters = {
 	["Minsohu-ArgentDawn"] = {
 		["profileID"] = "0502202139kwqh2",
 	},
+	["Wadetosmun-ArgentDawn"] = {
+		["profileID"] = "0301221101jbTao",
+	},
 	["Justformoun-ArgentDawn"] = {
 		["profileID"] = "0405153352VjZNM",
 	},
-	["Wadetosmun-ArgentDawn"] = {
-		["profileID"] = "0301221101jbTao",
+	["Dohoen-ArgentDawn"] = {
+		["profileID"] = "0502195745HZ2rk",
 	},
 	["Veirne-Quel'Thalas"] = {
 		["profileID"] = "04172110102jBOC",
 	},
-	["Dohoen-ArgentDawn"] = {
-		["profileID"] = "0502195745HZ2rk",
+	["Gosheven-ArgentDawn"] = {
+		["profileID"] = "1016222047a3dXy",
 	},
 	["Hbankeryucca-ArgentDawn"] = {
 		["profileID"] = "0327213047JZwig",
@@ -824,7 +832,7 @@ TRP3_Configuration = {
 	["ui_animations"] = true,
 	["MAKE_SURE_BROADCAST_CHANNEL_IS_LAST"] = true,
 	["chat_npc_talk"] = true,
-	["CONFIG_TOOLBAR_POS_Y"] = 39.54037857055664,
+	["CONFIG_TOOLBAR_POS_Y"] = 37.37998580932617,
 	["config_register_about_h3_size"] = 16,
 	["tooltip_char_subSize"] = 12,
 	["chat_use_CHAT_MSG_PARTY_LEADER"] = true,
@@ -838,7 +846,7 @@ TRP3_Configuration = {
 	["target_content_bb_companion_profile"] = true,
 	["ui_sounds"] = true,
 	["chat_language_remember_last_used"] = true,
-	["CONFIG_TOOLBAR_POS_X"] = -173.4765625,
+	["CONFIG_TOOLBAR_POS_X"] = -185.3584289550781,
 	["AF_STUFF"] = false,
 	["chat_show_icon"] = true,
 	["toolbar_content_ww_trp3_languages"] = true,
@@ -1181,20 +1189,20 @@ TRP3_MatureFilter = {
 		["queef"] = 1,
 		["orgasm"] = 1,
 		["rosy palm"] = 1,
-		["escort"] = 1,
+		["missionary position"] = 1,
 		["rectum"] = 1,
 		["goatse"] = 1,
 		["blonde action"] = 1,
-		["missionary position"] = 1,
+		["sultry women"] = 1,
 		["dry hump"] = 1,
 		["bdsm"] = 1,
 		["girl on"] = 1,
 		["octopussy"] = 1,
 		["ball sack"] = 1,
-		["anus"] = 1,
 		["circlejerk"] = 1,
-		["babeland"] = 1,
 		["futanari"] = 1,
+		["babeland"] = 1,
+		["anus"] = 1,
 		["rimjob"] = 1,
 		["kike"] = 1,
 		["voyeur"] = 1,
@@ -1219,16 +1227,16 @@ TRP3_MatureFilter = {
 		["dog style"] = 1,
 		["panties"] = 1,
 		["shemale"] = 1,
-		["nig nog"] = 1,
+		["bareback"] = 1,
 		["double penetration"] = 1,
-		["wank"] = 1,
+		["nig nog"] = 1,
 		["shibari"] = 1,
 		["dildo"] = 1,
 		["panty"] = 1,
 		["nigga"] = 1,
 		["camel toe"] = 1,
 		["taste my"] = 1,
-		["sucks"] = 1,
+		["ass"] = 1,
 		["slanteye"] = 1,
 		["fingerbang"] = 1,
 		["feltch"] = 1,
@@ -1241,11 +1249,11 @@ TRP3_MatureFilter = {
 		["phone sex"] = 1,
 		["beaver lips"] = 1,
 		["pissing"] = 1,
-		["ass"] = 1,
-		["pussy"] = 1,
 		["suicide girls"] = 1,
+		["pussy"] = 1,
+		["sucks"] = 1,
 		["pleasure chest"] = 1,
-		["bareback"] = 1,
+		["wank"] = 1,
 		["tits"] = 1,
 		["slut"] = 1,
 		["dominatrix"] = 1,
@@ -1261,7 +1269,7 @@ TRP3_MatureFilter = {
 		["two girls one cup"] = 1,
 		["one guy one jar"] = 1,
 		["punany"] = 1,
-		["sultry women"] = 1,
+		["escort"] = 1,
 		["raging boner"] = 1,
 		["bondage"] = 1,
 		["rosy palm and her 5 sisters"] = 1,

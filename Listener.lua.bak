@@ -1,12 +1,88 @@
 
 ListenerAddonSaved = {
 	["char"] = {
-		["Yuccamaila - Quel'Thalas"] = {
+		["Veirne - Quel'Thalas"] = {
 			["frames"] = {
 				{
 					["players"] = {
+						["Veirne"] = 1,
 						["Guild"] = 1,
-						["Yuccamaila"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "MAIN",
+				}, -- [1]
+				{
+					["players"] = {
+						["Veirne"] = 1,
+						["Guild"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "SNOOPER",
+				}, -- [2]
+			},
+		},
+		["Gosheven - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Gosheven"] = 1,
+						["Guild"] = 1,
 					},
 					["listen_all"] = true,
 					["color"] = {
@@ -41,8 +117,8 @@ ListenerAddonSaved = {
 				}, -- [1]
 				{
 					["players"] = {
+						["Gosheven"] = 1,
 						["Guild"] = 1,
-						["Yuccamaila"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -77,12 +153,12 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Shidhewe - Argent Dawn"] = {
+		["Yenuthile - Argent Dawn"] = {
 			["frames"] = {
 				{
 					["players"] = {
+						["Yenuthile"] = 1,
 						["Guild"] = 1,
-						["Shidhewe"] = 1,
 					},
 					["listen_all"] = true,
 					["color"] = {
@@ -93,7 +169,7 @@ ListenerAddonSaved = {
 						["height"] = 300,
 						["width"] = 200,
 					},
-					["hidden"] = true,
+					["hidden"] = false,
 					["showhidden"] = true,
 					["font"] = {
 					},
@@ -112,13 +188,13 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["readmark"] = true,
 					["name"] = "MAIN",
+					["readmark"] = true,
 				}, -- [1]
 				{
 					["players"] = {
+						["Yenuthile"] = 1,
 						["Guild"] = 1,
-						["Shidhewe"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -148,8 +224,8 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["readmark"] = true,
 					["name"] = "SNOOPER",
+					["readmark"] = true,
 				}, -- [2]
 			},
 		},
@@ -381,12 +457,12 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Yuccabrankra - Drak'thul"] = {
+		["Yuccamaila - Quel'Thalas"] = {
 			["frames"] = {
 				{
 					["players"] = {
 						["Guild"] = 1,
-						["Yuccabrankra"] = 1,
+						["Yuccamaila"] = 1,
 					},
 					["listen_all"] = true,
 					["color"] = {
@@ -422,7 +498,7 @@ ListenerAddonSaved = {
 				{
 					["players"] = {
 						["Guild"] = 1,
-						["Yuccabrankra"] = 1,
+						["Yuccamaila"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -608,12 +684,12 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Yenuthile - Argent Dawn"] = {
+		["Shidhewe - Argent Dawn"] = {
 			["frames"] = {
 				{
 					["players"] = {
-						["Yenuthile"] = 1,
 						["Guild"] = 1,
+						["Shidhewe"] = 1,
 					},
 					["listen_all"] = true,
 					["color"] = {
@@ -624,7 +700,7 @@ ListenerAddonSaved = {
 						["height"] = 300,
 						["width"] = 200,
 					},
-					["hidden"] = false,
+					["hidden"] = true,
 					["showhidden"] = true,
 					["font"] = {
 					},
@@ -643,13 +719,13 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["name"] = "MAIN",
 					["readmark"] = true,
+					["name"] = "MAIN",
 				}, -- [1]
 				{
 					["players"] = {
-						["Yenuthile"] = 1,
 						["Guild"] = 1,
+						["Shidhewe"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -679,8 +755,8 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["name"] = "SNOOPER",
 					["readmark"] = true,
+					["name"] = "SNOOPER",
 				}, -- [2]
 			},
 		},
@@ -836,12 +912,12 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Veirne - Quel'Thalas"] = {
+		["Yuccabrankra - Drak'thul"] = {
 			["frames"] = {
 				{
 					["players"] = {
-						["Veirne"] = 1,
 						["Guild"] = 1,
+						["Yuccabrankra"] = 1,
 					},
 					["listen_all"] = true,
 					["color"] = {
@@ -871,13 +947,13 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["readmark"] = true,
 					["name"] = "MAIN",
+					["readmark"] = true,
 				}, -- [1]
 				{
 					["players"] = {
-						["Veirne"] = 1,
 						["Guild"] = 1,
+						["Yuccabrankra"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -907,8 +983,8 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["readmark"] = true,
 					["name"] = "SNOOPER",
+					["readmark"] = true,
 				}, -- [2]
 			},
 		},
@@ -999,54 +1075,26 @@ ListenerAddonSaved = {
 	["realm"] = {
 		["Argent Dawn"] = {
 			["guids"] = {
-				["Pixe"] = "Player-3702-09C91BFF",
-				["Dhegz"] = "Player-3702-09E77465",
-				["Nilgeth"] = "Player-3702-0A2B3A25",
-				["Koruz"] = "Player-3702-09089D6A",
-				["Droptop"] = "Player-3702-0A24D74C",
-				["Haljan"] = "Player-3702-0A3310B0",
-				["Arçanna"] = "Player-3702-0A346013",
-				["Hexette"] = "Player-3702-09B798A9",
-				["Sprixi"] = "Player-3702-0A2B2526",
-				["Halfðan"] = "Player-3702-0953791F",
-				["Calderian"] = "Player-3702-0771CC8A",
-				["Kaitylinn"] = "Player-3702-07ABB6D7",
-				["Gordár"] = "Player-3702-097846BD",
-				["Erosill"] = "Player-3702-08F68897",
-				["Wayting"] = "Player-3702-0970C6BD",
-				["Glàdys"] = "Player-3702-07171302",
-				["Valcia"] = "Player-3702-0625EC04",
-				["Váníty"] = "Player-3702-09C2A9E1",
-				["Herseboi"] = "Player-3702-0A04B904",
-				["Netherfox"] = "Player-3702-09CE1B68",
-				["Elenrose"] = "Player-3702-0A3448E4",
-				["Ostouraa"] = "Player-3702-0A2BC1EA",
-				["Swordhand"] = "Player-3702-063B0243",
-				["Pyu"] = "Player-3702-0952DAAF",
 				["Ohann"] = "Player-3702-0A33C17D",
-				["Boogiedwn"] = "Player-3702-0A306AD3",
-				["Moosejug"] = "Player-3702-0A345714",
-				["Fraull"] = "Player-3702-09C0112E",
-				["Zuwarido"] = "Player-3702-097D34C6",
-				["Jillix"] = "Player-3702-0A222D50",
 				["Tyad"] = "Player-3702-0978BF21",
-				["Hobojuun"] = "Player-3702-0A345F44",
+				["Hexette"] = "Player-3702-09B798A9",
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Yuccamaila - Quel'Thalas"] = "Default",
-		["Shidhewe - Argent Dawn"] = "Default",
+		["Veirne - Quel'Thalas"] = "Default",
+		["Gosheven - Argent Dawn"] = "Default",
+		["Yenuthile - Argent Dawn"] = "Default",
 		["Hbankeryucca - Argent Dawn"] = "Default",
 		["Yenuthile - Drak'thul"] = "Default",
 		["Tosmun - Argent Dawn"] = "Default",
-		["Yuccabrankra - Drak'thul"] = "Default",
+		["Yuccamaila - Quel'Thalas"] = "Default",
 		["Yuccabankerh - Drak'thul"] = "Default",
 		["Yenuthie - Argent Dawn"] = "Default",
-		["Yenuthile - Argent Dawn"] = "Default",
+		["Shidhewe - Argent Dawn"] = "Default",
 		["Waafawg - Argent Dawn"] = "Default",
 		["Yuccamailh - Quel'Thalas"] = "Default",
-		["Veirne - Quel'Thalas"] = "Default",
+		["Yuccabrankra - Drak'thul"] = "Default",
 		["Ohann - Argent Dawn"] = "Default",
 	},
 	["profiles"] = {

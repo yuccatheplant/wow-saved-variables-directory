@@ -346,7 +346,7 @@ TRP3_Profiles = {
 				["PS"] = {
 				},
 				["IC"] = "Achievement_Character_Tauren_Male",
-				["v"] = 108,
+				["v"] = 124,
 			},
 			["character"] = {
 				["RP"] = 2,
@@ -400,12 +400,12 @@ TRP3_Profiles = {
 		},
 		["player"] = {
 			["characteristics"] = {
-				["EC"] = "Dark brown",
-				["RA"] = "Tauren",
 				["BP"] = "Barrens",
-				["LN"] = "Spiritshout",
+				["RA"] = "Tauren",
 				["MI"] = {
 				},
+				["LN"] = "Spiritshout",
+				["EC"] = "Dark brown",
 				["FN"] = "Yenuthile",
 				["FT"] = "Rambler || Drunken treehugger || Accidental shaman",
 				["AG"] = "Adult",
@@ -420,28 +420,33 @@ TRP3_Profiles = {
 				["CH"] = "203c18",
 			},
 			["character"] = {
-				["v"] = 97,
+				["v"] = 47,
 				["CO"] = "-Walkups welcome",
-				["RP"] = 2,
+				["RP"] = 1,
 				["LC"] = "enUS",
 				["XP"] = 2,
-				["CU"] = "",
+				["CU"] = "-Excited\n-Somewhat exhausted",
 			},
 			["about"] = {
 				["T2"] = {
 				},
 				["T3"] = {
 					["PH"] = {
+						["BK"] = 1,
 					},
 					["PS"] = {
+						["BK"] = 1,
 					},
 					["HI"] = {
+						["BK"] = 1,
 					},
 				},
 				["TE"] = 1,
 				["T1"] = {
+					["TX"] = "HP: 6\nAdrenalin: 3\nMana: 1\n\nRacial: Earthmother's bounty: 15+ to environmental checks.",
 				},
-				["v"] = 1,
+				["BK"] = 1,
+				["v"] = 6,
 			},
 			["misc"] = {
 				["ST"] = {
@@ -484,20 +489,21 @@ TRP3_Profiles = {
 						["IC"] = "inv_inscription_warpaint_blue",
 					},
 				},
-				["v"] = 50,
+				["v"] = 54,
 			},
 		},
 		["profileName"] = "Yenuthile",
 		["questlog"] = {
 		},
 		["notes"] = {
-			["0429003812dNQzx"] = "An'she - sun (679 hides)\nMu'sha - Elune - moon\n\nWarpaint:\nRed: War/Sucess/Energy/Strength\nBlue: Confidence\nGreen: Endurance\n\nYenuthile's mother - Tahki Springstream\nYenuthile's father - Ashnkii Spiritshout\n\nYenuthile's mother lives in Sun Rock Retreat in Stonetalon Mountains.\n\nRoyal Exchange room 217\n\n\nBlue and Green are sport fans - possible cause of diversion\nBalcony is dimly lit, but favored for sex\nNobody in a pool, it is oily and some tubes go towards sauna and main house from it.\nNear pool, there is goblin selling drinks. It seems all drinks at the party comes from this one person.\nTwo full plate guards at main building.\nMoxxo is doing DJ stuff, wearing weird steel mask. Near main building there are strong lights that might blind guards and visitors.\nEngineers works on pumps around Golf course pond. Probably trying to pump water out of there.\nDuring the fight, I counted 24 guards at the peacekeeping duty.\n\n\n\n\n",
+			["0429003812dNQzx"] = "An'she - sun (679 hides)\nMu'sha - Elune - moon\n\nWarpaint:\nRed: War/Sucess/Energy/Strength\nBlue: Confidence\nGreen: Endurance\n\nYenuthile's mother - Tahki Springstream\nYenuthile's father - Ashnkii Spiritshout\n\nYenuthile's mother lives in Sun Rock Retreat in Stonetalon Mountains.\n\nRoyal Exchange room 217\n\n\n\n\n",
 		},
 		["relation"] = {
 			["1017144954Hgs5M"] = "FRIEND",
 			["11292146219ouTY"] = "UNFRIENDLY",
 			["0206191809Qysyw"] = "BUSINESS",
 			["1006215730FTftA"] = "NEUTRAL",
+			["0303201423Sgf7Y"] = "FRIEND",
 			["1023051747xz0qn"] = "FRIEND",
 			["0506030854tAPlI"] = "NEUTRAL",
 			["0921183859UxAFr"] = "FRIEND",
@@ -515,6 +521,7 @@ TRP3_Profiles = {
 			["08101856494nRAN"] = "FRIEND",
 			["0930140441qxuyV"] = "NEUTRAL",
 			["1016224719Enqtr"] = "FRIEND",
+			["0103175543OhKMB"] = "BUSINESS",
 			["03142252355i9q5"] = "FRIEND",
 			["0926002241LI9Qq"] = "BUSINESS",
 			["0430044455r9mTF"] = "FRIEND",
@@ -613,9 +620,9 @@ TRP3_Profiles = {
 					},
 					["3"] = {
 						["AC"] = true,
-						["TI"] = "Leather Armor",
+						["TI"] = "Leather plate Armor",
 						["IC"] = "inv_chest_leather_raidmonk_q_01",
-						["TX"] = "-Combination of Fur and Leather armor\n-Leather dyed green",
+						["TX"] = "-Leather dyed green",
 					},
 					["2"] = {
 						["AC"] = true,
@@ -624,7 +631,7 @@ TRP3_Profiles = {
 						["TX"] = "-Simple looking shortbow on back\n-Long walking stick on back\n-Primitive dagger on left thigh\n-Quiver with arrows on right thigh",
 					},
 				},
-				["v"] = 14,
+				["v"] = 17,
 			},
 		},
 		["questlog"] = {
@@ -648,16 +655,19 @@ TRP3_Characters = {
 	["Minsohu-ArgentDawn"] = {
 		["profileID"] = "0502202139kwqh2",
 	},
+	["Wadetosmun-ArgentDawn"] = {
+		["profileID"] = "0301221101jbTao",
+	},
 	["Justformoun-ArgentDawn"] = {
 		["profileID"] = "0405153352VjZNM",
 	},
-	["Wadetosmun-ArgentDawn"] = {
-		["profileID"] = "0301221101jbTao",
+	["Yuccabankerh-Drak'thul"] = {
+		["profileID"] = "1016222047a3dXy",
 	},
 	["Veirne-Quel'Thalas"] = {
 		["profileID"] = "04172110102jBOC",
 	},
-	["Yuccabankerh-Drak'thul"] = {
+	["Gosheven-ArgentDawn"] = {
 		["profileID"] = "1016222047a3dXy",
 	},
 	["Hbankeryucca-ArgentDawn"] = {
@@ -1179,20 +1189,20 @@ TRP3_MatureFilter = {
 		["queef"] = 1,
 		["guro"] = 1,
 		["rosy palm and her 5 sisters"] = 1,
-		["missionary position"] = 1,
+		["sultry women"] = 1,
 		["rectum"] = 1,
 		["goatse"] = 1,
 		["raging boner"] = 1,
-		["sultry women"] = 1,
+		["escort"] = 1,
 		["dry hump"] = 1,
 		["bdsm"] = 1,
 		["girl on"] = 1,
 		["punany"] = 1,
 		["one guy one jar"] = 1,
-		["circlejerk"] = 1,
 		["futanari"] = 1,
-		["babeland"] = 1,
 		["anus"] = 1,
+		["babeland"] = 1,
+		["circlejerk"] = 1,
 		["rimjob"] = 1,
 		["bullet vibe"] = 1,
 		["voyeur"] = 1,
@@ -1217,16 +1227,16 @@ TRP3_MatureFilter = {
 		["shemale"] = 1,
 		["panties"] = 1,
 		["dog style"] = 1,
-		["bareback"] = 1,
+		["wank"] = 1,
 		["dildo"] = 1,
-		["nig nog"] = 1,
+		["bareback"] = 1,
 		["shibari"] = 1,
 		["double penetration"] = 1,
-		["suicide girls"] = 1,
-		["pussy"] = 1,
-		["ass"] = 1,
-		["taste my"] = 1,
 		["sucks"] = 1,
+		["pussy"] = 1,
+		["suicide girls"] = 1,
+		["taste my"] = 1,
+		["ass"] = 1,
 		["slanteye"] = 1,
 		["fingerbang"] = 1,
 		["camel toe"] = 1,
@@ -1243,7 +1253,7 @@ TRP3_MatureFilter = {
 		["nigga"] = 1,
 		["panty"] = 1,
 		["pleasure chest"] = 1,
-		["wank"] = 1,
+		["nig nog"] = 1,
 		["tits"] = 1,
 		["blue waffle"] = 1,
 		["dominatrix"] = 1,
@@ -1259,7 +1269,7 @@ TRP3_MatureFilter = {
 		["two girls one cup"] = 1,
 		["ball sack"] = 1,
 		["octopussy"] = 1,
-		["escort"] = 1,
+		["missionary position"] = 1,
 		["blonde action"] = 1,
 		["bondage"] = 1,
 		["rosy palm"] = 1,

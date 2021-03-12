@@ -22,16 +22,17 @@ RecountDB = {
 		["Waafawg - Argent Dawn"] = "Waafawg - Argent Dawn",
 		["Yuccabankra - Drak'thul"] = "Yuccabankra - Drak'thul",
 		["Awfafgawa - Drak'thul"] = "Awfafgawa - Drak'thul",
-		["Gajung - Drak'thul"] = "Gajung - Drak'thul",
 		["Wadetos - Argent Dawn"] = "Wadetos - Argent Dawn",
-		["Minsohu - Argent Dawn"] = "Minsohu - Argent Dawn",
+		["Gajung - Drak'thul"] = "Gajung - Drak'thul",
 		["Shidhewe - Argent Dawn"] = "Shidhewe - Argent Dawn",
+		["Minsohu - Argent Dawn"] = "Minsohu - Argent Dawn",
+		["Veirne - Argent Dawn"] = "Veirne - Argent Dawn",
 		["Faern - Quel'Thalas"] = "Faern - Quel'Thalas",
 		["Granley - Quel'Thalas"] = "Granley - Quel'Thalas",
 		["Yuccamailh - Quel'Thalas"] = "Yuccamailh - Quel'Thalas",
-		["Keanis - Quel'Thalas"] = "Keanis - Quel'Thalas",
-		["Justformoun - Argent Dawn"] = "Justformoun - Argent Dawn",
 		["Swffwgwagw - Argent Dawn"] = "Swffwgwagw - Argent Dawn",
+		["Justformoun - Argent Dawn"] = "Justformoun - Argent Dawn",
+		["Yenuthile - Argent Dawn"] = "Yenuthile - Argent Dawn",
 		["Dohoen - Argent Dawn"] = "Dohoen - Argent Dawn",
 		["Abankeryucca - Argent Dawn"] = "Abankeryucca - Argent Dawn",
 		["Yuccabankerh - Drak'thul"] = "Yuccabankerh - Drak'thul",
@@ -40,11 +41,11 @@ RecountDB = {
 		["Yenuthile - Drak'thul"] = "Yenuthile - Drak'thul",
 		["Bankeryuccaa - Argent Dawn"] = "Bankeryuccaa - Argent Dawn",
 		["Yuccamaila - Quel'Thalas"] = "Yuccamaila - Quel'Thalas",
-		["Yenuthile - Argent Dawn"] = "Yenuthile - Argent Dawn",
+		["Keanis - Quel'Thalas"] = "Keanis - Quel'Thalas",
 		["Yenuthie - Argent Dawn"] = "Yenuthie - Argent Dawn",
 		["Seungyol - Drak'thul"] = "Seungyol - Drak'thul",
+		["Gosheven - Argent Dawn"] = "Gosheven - Argent Dawn",
 		["Dograem - Argent Dawn"] = "Dograem - Argent Dawn",
-		["Veirne - Argent Dawn"] = "Veirne - Argent Dawn",
 		["Grumgrobogr - Argent Dawn"] = "Grumgrobogr - Argent Dawn",
 		["Ohann - Argent Dawn"] = "Ohann - Argent Dawn",
 	},
@@ -169,15 +170,8 @@ RecountDB = {
 			["MainWindowHeight"] = 128.8903198242188,
 		},
 		["Daiqigan - Quel'Thalas"] = {
+			["ClampToScreen"] = true,
 			["CurDataSet"] = "OverallData",
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -320.1856575012207,
-					["x"] = -590.5232162475586,
-					["w"] = 184.2869415283203,
-					["h"] = 127.6286849975586,
-				},
-			},
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -192,7 +186,14 @@ RecountDB = {
 			["MainWindowHeight"] = 127.6286849975586,
 			["Locked"] = true,
 			["MainWindowWidth"] = 184.2869415283203,
-			["ClampToScreen"] = true,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -320.1856575012207,
+					["x"] = -590.5232162475586,
+					["w"] = 184.2869415283203,
+					["h"] = 127.6286849975586,
+				},
+			},
 		},
 		["Rifeng - Argent Dawn"] = {
 			["MainWindow"] = {
@@ -547,6 +548,32 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
+		["Wadetos - Argent Dawn"] = {
+			["ClampToScreen"] = true,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowWidth"] = 188.607666015625,
+			["MainWindowHeight"] = 115.9283142089844,
+			["Locked"] = true,
+			["FrameStrata"] = "4-HIGH",
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -326.0358428955078,
+					["x"] = -588.3628540039062,
+					["w"] = 188.607666015625,
+					["h"] = 115.9283142089844,
+				},
+			},
+		},
 		["Gajung - Drak'thul"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
@@ -566,14 +593,11 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Wadetos - Argent Dawn"] = {
-			["CurDataSet"] = "OverallData",
+		["Shidhewe - Argent Dawn"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -326.0358428955078,
-					["x"] = -588.3628540039062,
-					["w"] = 188.607666015625,
-					["h"] = 115.9283142089844,
+					["w"] = 140.0000152587891,
 				},
 			},
 			["Colors"] = {
@@ -586,11 +610,7 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowWidth"] = 188.607666015625,
-			["MainWindowHeight"] = 115.9283142089844,
-			["Locked"] = true,
-			["FrameStrata"] = "4-HIGH",
-			["ClampToScreen"] = true,
+			["CurDataSet"] = "OverallData",
 		},
 		["Minsohu - Argent Dawn"] = {
 			["MainWindow"] = {
@@ -619,11 +639,14 @@ RecountDB = {
 			["MainWindowWidth"] = 185.3670959472656,
 			["MainWindowHeight"] = 129.9705810546875,
 		},
-		["Shidhewe - Argent Dawn"] = {
-			["MainWindowVis"] = false,
+		["Veirne - Argent Dawn"] = {
+			["CurDataSet"] = "OverallData",
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000152587891,
+					["y"] = -325.4957542419434,
+					["x"] = -588.3628845214844,
+					["w"] = 188.6076049804688,
+					["h"] = 117.0084915161133,
 				},
 			},
 			["Colors"] = {
@@ -636,9 +659,14 @@ RecountDB = {
 					},
 				},
 			},
-			["CurDataSet"] = "OverallData",
+			["MainWindowWidth"] = 188.6076049804688,
+			["MainWindowHeight"] = 117.0084915161133,
+			["Locked"] = true,
+			["FrameStrata"] = "4-HIGH",
+			["ClampToScreen"] = true,
 		},
 		["Faern - Quel'Thalas"] = {
+			["CurDataSet"] = "OverallData",
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -325.0463752746582,
@@ -647,7 +675,6 @@ RecountDB = {
 					["h"] = 117.9072494506836,
 				},
 			},
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -662,7 +689,7 @@ RecountDB = {
 			["MainWindowHeight"] = 117.9072494506836,
 			["Locked"] = true,
 			["MainWindowWidth"] = 188.6076202392578,
-			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
 		},
 		["Granley - Quel'Thalas"] = {
 			["Locked"] = true,
@@ -709,14 +736,11 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Keanis - Quel'Thalas"] = {
-			["CurDataSet"] = "OverallData",
+		["Swffwgwagw - Argent Dawn"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -328.1962432861328,
-					["x"] = -588.9030075073242,
-					["w"] = 187.5274505615234,
-					["h"] = 111.6076049804688,
+					["w"] = 140.0000152587891,
 				},
 			},
 			["Colors"] = {
@@ -729,11 +753,7 @@ RecountDB = {
 					},
 				},
 			},
-			["FrameStrata"] = "4-HIGH",
-			["Locked"] = true,
-			["ClampToScreen"] = true,
-			["MainWindowWidth"] = 187.5274505615234,
-			["MainWindowHeight"] = 111.6076049804688,
+			["CurDataSet"] = "OverallData",
 		},
 		["Justformoun - Argent Dawn"] = {
 			["MainWindowVis"] = false,
@@ -754,13 +774,18 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Swffwgwagw - Argent Dawn"] = {
-			["MainWindowVis"] = false,
+		["Yenuthile - Argent Dawn"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000152587891,
+					["y"] = -319.5548858642578,
+					["x"] = -589.4430694580078,
+					["w"] = 186.4473114013672,
+					["h"] = 128.8903656005859,
 				},
 			},
+			["LastInstanceName"] = "Waycrest Manor",
+			["FrameStrata"] = "4-HIGH",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -771,6 +796,9 @@ RecountDB = {
 					},
 				},
 			},
+			["Locked"] = true,
+			["MainWindowHeight"] = 128.8903656005859,
+			["MainWindowWidth"] = 186.4472808837891,
 			["CurDataSet"] = "OverallData",
 		},
 		["Dohoen - Argent Dawn"] = {
@@ -841,6 +869,7 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 		},
 		["Seomin - Drak'thul"] = {
+			["CurDataSet"] = "OverallData",
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -326.5759582519531,
@@ -849,7 +878,6 @@ RecountDB = {
 					["h"] = 114.8480834960938,
 				},
 			},
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -864,11 +892,18 @@ RecountDB = {
 			["MainWindowHeight"] = 114.8480834960938,
 			["Locked"] = true,
 			["FrameStrata"] = "4-HIGH",
-			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
 		},
 		["Xioniu - Argent Dawn"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -326.0358505249023,
+					["x"] = -587.8227920532227,
+					["w"] = 189.6877899169922,
+					["h"] = 115.9282989501953,
+				},
+			},
 			["ClampToScreen"] = true,
-			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -883,14 +918,7 @@ RecountDB = {
 			["MainWindowHeight"] = 115.9282989501953,
 			["Locked"] = true,
 			["MainWindowWidth"] = 189.6877899169922,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -326.0358505249023,
-					["x"] = -587.8227920532227,
-					["w"] = 189.6877899169922,
-					["h"] = 115.9282989501953,
-				},
-			},
+			["CurDataSet"] = "OverallData",
 		},
 		["Yenuthile - Drak'thul"] = {
 			["MainWindow"] = {
@@ -956,18 +984,16 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Yenuthile - Argent Dawn"] = {
+		["Keanis - Quel'Thalas"] = {
+			["CurDataSet"] = "OverallData",
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -319.5548858642578,
-					["x"] = -589.4430694580078,
-					["w"] = 186.4473114013672,
-					["h"] = 128.8903656005859,
+					["y"] = -328.1962432861328,
+					["x"] = -588.9030075073242,
+					["w"] = 187.5274505615234,
+					["h"] = 111.6076049804688,
 				},
 			},
-			["LastInstanceName"] = "Waycrest Manor",
-			["FrameStrata"] = "4-HIGH",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -978,10 +1004,11 @@ RecountDB = {
 					},
 				},
 			},
+			["FrameStrata"] = "4-HIGH",
 			["Locked"] = true,
-			["MainWindowHeight"] = 128.8903656005859,
-			["MainWindowWidth"] = 186.4472808837891,
-			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
+			["MainWindowWidth"] = 187.5274505615234,
+			["MainWindowHeight"] = 111.6076049804688,
 		},
 		["Yenuthie - Argent Dawn"] = {
 			["MainWindow"] = {
@@ -1029,6 +1056,25 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
+		["Gosheven - Argent Dawn"] = {
+			["MainWindowVis"] = false,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000152587891,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
 		["Dograem - Argent Dawn"] = {
 			["MainWindow"] = {
 				["Position"] = {
@@ -1054,32 +1100,6 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 			["FrameStrata"] = "4-HIGH",
 			["MainWindowHeight"] = 129.9704895019531,
-		},
-		["Veirne - Argent Dawn"] = {
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -325.4957542419434,
-					["x"] = -588.3628845214844,
-					["w"] = 188.6076049804688,
-					["h"] = 117.0084915161133,
-				},
-			},
-			["ClampToScreen"] = true,
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["MainWindowWidth"] = 188.6076049804688,
-			["MainWindowHeight"] = 117.0084915161133,
-			["Locked"] = true,
-			["FrameStrata"] = "4-HIGH",
-			["CurDataSet"] = "OverallData",
 		},
 		["Grumgrobogr - Argent Dawn"] = {
 			["MainWindowHeight"] = 123.4894866943359,
@@ -1108,7 +1128,6 @@ RecountDB = {
 			},
 		},
 		["Ohann - Argent Dawn"] = {
-			["ClampToScreen"] = true,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -324.4979286193848,
@@ -1117,6 +1136,9 @@ RecountDB = {
 					["h"] = 119.0041732788086,
 				},
 			},
+			["LastInstanceName"] = "Stormstout Brewery",
+			["FrameStrata"] = "4-HIGH",
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -1127,11 +1149,10 @@ RecountDB = {
 					},
 				},
 			},
-			["MainWindowWidth"] = 182.0464172363281,
-			["MainWindowHeight"] = 119.0041732788086,
-			["CurDataSet"] = "OverallData",
-			["FrameStrata"] = "4-HIGH",
 			["Locked"] = true,
+			["MainWindowHeight"] = 119.0041732788086,
+			["MainWindowWidth"] = 182.0464172363281,
+			["ClampToScreen"] = true,
 		},
 	},
 }
