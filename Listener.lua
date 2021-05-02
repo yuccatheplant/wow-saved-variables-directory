@@ -153,6 +153,82 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
+		["Minsohu - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Minsohu"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "MAIN",
+					["readmark"] = true,
+				}, -- [1]
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Minsohu"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "SNOOPER",
+					["readmark"] = true,
+				}, -- [2]
+			},
+		},
 		["Hbankeryucca - Argent Dawn"] = {
 			["frames"] = {
 				{
@@ -305,6 +381,158 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
+		["Gosheven - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Gosheven"] = 1,
+						["Guild"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "MAIN",
+					["readmark"] = true,
+				}, -- [1]
+				{
+					["players"] = {
+						["Gosheven"] = 1,
+						["Guild"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "SNOOPER",
+					["readmark"] = true,
+				}, -- [2]
+			},
+		},
+		["Sulgiwen - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Sulgiwen"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "MAIN",
+				}, -- [1]
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Sulgiwen"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "SNOOPER",
+				}, -- [2]
+			},
+		},
 		["Wfawfafwa - Argent Dawn"] = {
 			["frames"] = {
 				{
@@ -347,234 +575,6 @@ ListenerAddonSaved = {
 					["players"] = {
 						["Guild"] = 1,
 						["Wfawfafwa"] = 1,
-					},
-					["listen_all"] = false,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = false,
-					["showhidden"] = false,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["readmark"] = true,
-					["name"] = "SNOOPER",
-				}, -- [2]
-			},
-		},
-		["Minsohu - Argent Dawn"] = {
-			["frames"] = {
-				{
-					["players"] = {
-						["Guild"] = 1,
-						["Minsohu"] = 1,
-					},
-					["listen_all"] = true,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = true,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "MAIN",
-					["readmark"] = true,
-				}, -- [1]
-				{
-					["players"] = {
-						["Guild"] = 1,
-						["Minsohu"] = 1,
-					},
-					["listen_all"] = false,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = false,
-					["showhidden"] = false,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "SNOOPER",
-					["readmark"] = true,
-				}, -- [2]
-			},
-		},
-		["Yenuthile - Argent Dawn"] = {
-			["frames"] = {
-				{
-					["players"] = {
-						["Yenuthile"] = 1,
-						["Guild"] = 1,
-					},
-					["listen_all"] = true,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = true,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "MAIN",
-					["readmark"] = true,
-				}, -- [1]
-				{
-					["players"] = {
-						["Yenuthile"] = 1,
-						["Guild"] = 1,
-					},
-					["listen_all"] = false,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = false,
-					["showhidden"] = false,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "SNOOPER",
-					["readmark"] = true,
-				}, -- [2]
-			},
-		},
-		["Yuccamailh - Quel'Thalas"] = {
-			["frames"] = {
-				{
-					["players"] = {
-						["Yuccamailh"] = 1,
-						["Guild"] = 1,
-					},
-					["listen_all"] = true,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = true,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["readmark"] = true,
-					["name"] = "MAIN",
-				}, -- [1]
-				{
-					["players"] = {
-						["Yuccamailh"] = 1,
-						["Guild"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -685,6 +685,82 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
+		["Yenuthile - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Yenuthile"] = 1,
+						["Guild"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "MAIN",
+					["readmark"] = true,
+				}, -- [1]
+				{
+					["players"] = {
+						["Yenuthile"] = 1,
+						["Guild"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "SNOOPER",
+					["readmark"] = true,
+				}, -- [2]
+			},
+		},
 		["Yuccabankerh - Drak'thul"] = {
 			["frames"] = {
 				{
@@ -761,88 +837,12 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Joowei - Argent Dawn"] = {
+		["Yuccamailh - Quel'Thalas"] = {
 			["frames"] = {
 				{
 					["players"] = {
+						["Yuccamailh"] = 1,
 						["Guild"] = 1,
-						["Joowei"] = 1,
-					},
-					["listen_all"] = true,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = true,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "MAIN",
-					["readmark"] = true,
-				}, -- [1]
-				{
-					["players"] = {
-						["Guild"] = 1,
-						["Joowei"] = 1,
-					},
-					["listen_all"] = false,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = false,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "SNOOPER",
-					["readmark"] = true,
-				}, -- [2]
-			},
-		},
-		["Shirne - Argent Dawn"] = {
-			["frames"] = {
-				{
-					["players"] = {
-						["Guild"] = 1,
-						["Shirne"] = 1,
 					},
 					["listen_all"] = true,
 					["color"] = {
@@ -877,83 +877,7 @@ ListenerAddonSaved = {
 				}, -- [1]
 				{
 					["players"] = {
-						["Guild"] = 1,
-						["Shirne"] = 1,
-					},
-					["listen_all"] = false,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = false,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["readmark"] = true,
-					["name"] = "SNOOPER",
-				}, -- [2]
-			},
-		},
-		["Gosheven - Argent Dawn"] = {
-			["frames"] = {
-				{
-					["players"] = {
-						["Gosheven"] = 1,
-						["Guild"] = 1,
-					},
-					["listen_all"] = true,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = true,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "MAIN",
-					["readmark"] = true,
-				}, -- [1]
-				{
-					["players"] = {
-						["Gosheven"] = 1,
+						["Yuccamailh"] = 1,
 						["Guild"] = 1,
 					},
 					["listen_all"] = false,
@@ -984,8 +908,8 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["name"] = "SNOOPER",
 					["readmark"] = true,
+					["name"] = "SNOOPER",
 				}, -- [2]
 			},
 		},
@@ -1141,6 +1065,158 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
+		["Shirne - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Shirne"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "MAIN",
+				}, -- [1]
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Shirne"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "SNOOPER",
+				}, -- [2]
+			},
+		},
+		["Joowei - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Joowei"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "MAIN",
+					["readmark"] = true,
+				}, -- [1]
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Joowei"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "SNOOPER",
+					["readmark"] = true,
+				}, -- [2]
+			},
+		},
 		["Yuccabrankra - Drak'thul"] = {
 			["frames"] = {
 				{
@@ -1183,6 +1259,158 @@ ListenerAddonSaved = {
 					["players"] = {
 						["Guild"] = 1,
 						["Yuccabrankra"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "SNOOPER",
+					["readmark"] = true,
+				}, -- [2]
+			},
+		},
+		["Tosmun - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Tosmun"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "MAIN",
+				}, -- [1]
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Tosmun"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "SNOOPER",
+				}, -- [2]
+			},
+		},
+		["Yenuthile - Drak'thul"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Yenuthile"] = 1,
+						["Guild"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["name"] = "MAIN",
+					["readmark"] = true,
+				}, -- [1]
+				{
+					["players"] = {
+						["Yenuthile"] = 1,
+						["Guild"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -1293,11 +1521,11 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Yenuthile - Drak'thul"] = {
+		["Ashiua - Argent Dawn"] = {
 			["frames"] = {
 				{
 					["players"] = {
-						["Yenuthile"] = 1,
+						["Ashiua"] = 1,
 						["Guild"] = 1,
 					},
 					["listen_all"] = true,
@@ -1333,7 +1561,7 @@ ListenerAddonSaved = {
 				}, -- [1]
 				{
 					["players"] = {
-						["Yenuthile"] = 1,
+						["Ashiua"] = 1,
 						["Guild"] = 1,
 					},
 					["listen_all"] = false,
@@ -1369,27 +1597,14 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Tosmun - Argent Dawn"] = {
+		["Kotexlevexmi - Argent Dawn"] = {
 			["frames"] = {
 				{
 					["players"] = {
-						["Tonarus"] = 1,
+						["Kotexlevexmi"] = 1,
 						["Guild"] = 1,
-						["Gordoh"] = 1,
-						["Tosmun"] = 1,
-						["Callìan"] = 1,
-						["Futtlonk"] = 1,
-						["Healseries"] = 1,
-						["Dominicus"] = 1,
-						["Jeraiel"] = 1,
-						["Pure"] = 1,
-						["Amiisi"] = 1,
-						["Keltheôn"] = 1,
-						["Concepcion"] = 1,
-						["Traktarus"] = 1,
-						["Rizzah"] = 1,
 					},
-					["listen_all"] = false,
+					["listen_all"] = true,
 					["color"] = {
 					},
 					["layout"] = {
@@ -1399,7 +1614,7 @@ ListenerAddonSaved = {
 						["width"] = 200,
 					},
 					["hidden"] = true,
-					["showhidden"] = false,
+					["showhidden"] = true,
 					["font"] = {
 					},
 					["groups"] = {
@@ -1417,13 +1632,13 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["readmark"] = true,
 					["name"] = "MAIN",
+					["readmark"] = true,
 				}, -- [1]
 				{
 					["players"] = {
+						["Kotexlevexmi"] = 1,
 						["Guild"] = 1,
-						["Tosmun"] = 1,
 					},
 					["listen_all"] = false,
 					["color"] = {
@@ -1453,8 +1668,8 @@ ListenerAddonSaved = {
 						["RAID_LEADER"] = true,
 					},
 					["enable_mouse"] = true,
-					["readmark"] = true,
 					["name"] = "SNOOPER",
+					["readmark"] = true,
 				}, -- [2]
 			},
 		},
@@ -1685,6 +1900,158 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
+		["Shuayo - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Shuayo"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "MAIN",
+				}, -- [1]
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Shuayo"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "SNOOPER",
+				}, -- [2]
+			},
+		},
+		["Awadwa - Argent Dawn"] = {
+			["frames"] = {
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Awadwa"] = 1,
+					},
+					["listen_all"] = true,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = true,
+					["showhidden"] = true,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "MAIN",
+				}, -- [1]
+				{
+					["players"] = {
+						["Guild"] = 1,
+						["Awadwa"] = 1,
+					},
+					["listen_all"] = false,
+					["color"] = {
+					},
+					["layout"] = {
+						["anchor"] = {
+						},
+						["height"] = 300,
+						["width"] = 200,
+					},
+					["hidden"] = false,
+					["showhidden"] = false,
+					["font"] = {
+					},
+					["groups"] = {
+					},
+					["filter"] = {
+						["EMOTE"] = true,
+						["ROLL"] = true,
+						["PARTY"] = true,
+						["YELL"] = true,
+						["RAID"] = true,
+						["PARTY_LEADER"] = true,
+						["RAID_WARNING"] = true,
+						["SAY"] = true,
+						["TEXT_EMOTE"] = true,
+						["RAID_LEADER"] = true,
+					},
+					["enable_mouse"] = true,
+					["readmark"] = true,
+					["name"] = "SNOOPER",
+				}, -- [2]
+			},
+		},
 		["Veirne - Quel'Thalas"] = {
 			["frames"] = {
 				{
@@ -1837,158 +2204,6 @@ ListenerAddonSaved = {
 				}, -- [2]
 			},
 		},
-		["Kotexlevexmi - Argent Dawn"] = {
-			["frames"] = {
-				{
-					["players"] = {
-						["Kotexlevexmi"] = 1,
-						["Guild"] = 1,
-					},
-					["listen_all"] = true,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = true,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "MAIN",
-					["readmark"] = true,
-				}, -- [1]
-				{
-					["players"] = {
-						["Kotexlevexmi"] = 1,
-						["Guild"] = 1,
-					},
-					["listen_all"] = false,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = false,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["name"] = "SNOOPER",
-					["readmark"] = true,
-				}, -- [2]
-			},
-		},
-		["Awadwa - Argent Dawn"] = {
-			["frames"] = {
-				{
-					["players"] = {
-						["Guild"] = 1,
-						["Awadwa"] = 1,
-					},
-					["listen_all"] = true,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = true,
-					["showhidden"] = true,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["readmark"] = true,
-					["name"] = "MAIN",
-				}, -- [1]
-				{
-					["players"] = {
-						["Guild"] = 1,
-						["Awadwa"] = 1,
-					},
-					["listen_all"] = false,
-					["color"] = {
-					},
-					["layout"] = {
-						["anchor"] = {
-						},
-						["height"] = 300,
-						["width"] = 200,
-					},
-					["hidden"] = false,
-					["showhidden"] = false,
-					["font"] = {
-					},
-					["groups"] = {
-					},
-					["filter"] = {
-						["EMOTE"] = true,
-						["ROLL"] = true,
-						["PARTY"] = true,
-						["YELL"] = true,
-						["RAID"] = true,
-						["PARTY_LEADER"] = true,
-						["RAID_WARNING"] = true,
-						["SAY"] = true,
-						["TEXT_EMOTE"] = true,
-						["RAID_LEADER"] = true,
-					},
-					["enable_mouse"] = true,
-					["readmark"] = true,
-					["name"] = "SNOOPER",
-				}, -- [2]
-			},
-		},
 		["Ohann - Argent Dawn"] = {
 			["frames"] = {
 				{
@@ -2073,6 +2288,55 @@ ListenerAddonSaved = {
 		},
 		["version"] = 1,
 	},
+	["realm"] = {
+		["Quel'Thalas"] = {
+			["guids"] = {
+				["Lautje-Khadgar"] = "Player-1080-02FA7F4A",
+				["Kharnogai-AzjolNerub"] = "Player-1396-0933B101",
+			},
+		},
+		["Argent Dawn"] = {
+			["guids"] = {
+				["Yenuthie"] = "Player-3702-09DBC6B6",
+				["Thregzin"] = "Player-3702-0A30E552",
+				["Klonoping"] = "Player-3702-0A2BD38B",
+				["Kylânia"] = "Player-3702-09122752",
+				["Tyad"] = "Player-3702-0978BF21",
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Gvaga - Argent Dawn"] = "Default",
+		["Wfawfafw - Argent Dawn"] = "Default",
+		["Minsohu - Argent Dawn"] = "Default",
+		["Hbankeryucca - Argent Dawn"] = "Default",
+		["Yeklie - Argent Dawn"] = "Default",
+		["Gosheven - Argent Dawn"] = "Default",
+		["Sulgiwen - Argent Dawn"] = "Default",
+		["Wfawfafwa - Argent Dawn"] = "Default",
+		["Awdfwa - Argent Dawn"] = "Default",
+		["Yenuthile - Argent Dawn"] = "Default",
+		["Yuccabankerh - Drak'thul"] = "Default",
+		["Yuccamailh - Quel'Thalas"] = "Default",
+		["Shidhewe - Argent Dawn"] = "Default",
+		["Wadfwafwaf - Argent Dawn"] = "Default",
+		["Shirne - Argent Dawn"] = "Default",
+		["Joowei - Argent Dawn"] = "Default",
+		["Yuccabrankra - Drak'thul"] = "Default",
+		["Tosmun - Argent Dawn"] = "Default",
+		["Yenuthile - Drak'thul"] = "Default",
+		["Sfagva - Argent Dawn"] = "Default",
+		["Ashiua - Argent Dawn"] = "Default",
+		["Kotexlevexmi - Argent Dawn"] = "Default",
+		["Yuccamaila - Quel'Thalas"] = "Default",
+		["Liumea - Argent Dawn"] = "Default",
+		["Yenuthie - Argent Dawn"] = "Default",
+		["Shuayo - Argent Dawn"] = "Default",
+		["Awadwa - Argent Dawn"] = "Default",
+		["Veirne - Quel'Thalas"] = "Default",
+		["Waafawg - Argent Dawn"] = "Default",
+		["Ohann - Argent Dawn"] = "Default",
+	},
 	["profiles"] = {
 		["Default"] = {
 			["minimapicon"] = {
@@ -2148,46 +2412,6 @@ ListenerAddonSaved = {
 				["font"] = {
 					["size"] = 16,
 				},
-			},
-		},
-	},
-	["profileKeys"] = {
-		["Gvaga - Argent Dawn"] = "Default",
-		["Wfawfafw - Argent Dawn"] = "Default",
-		["Hbankeryucca - Argent Dawn"] = "Default",
-		["Yeklie - Argent Dawn"] = "Default",
-		["Wfawfafwa - Argent Dawn"] = "Default",
-		["Minsohu - Argent Dawn"] = "Default",
-		["Yenuthile - Argent Dawn"] = "Default",
-		["Yuccamailh - Quel'Thalas"] = "Default",
-		["Awdfwa - Argent Dawn"] = "Default",
-		["Yuccabankerh - Drak'thul"] = "Default",
-		["Joowei - Argent Dawn"] = "Default",
-		["Shirne - Argent Dawn"] = "Default",
-		["Gosheven - Argent Dawn"] = "Default",
-		["Shidhewe - Argent Dawn"] = "Default",
-		["Wadfwafwaf - Argent Dawn"] = "Default",
-		["Yuccabrankra - Drak'thul"] = "Default",
-		["Sfagva - Argent Dawn"] = "Default",
-		["Yenuthile - Drak'thul"] = "Default",
-		["Tosmun - Argent Dawn"] = "Default",
-		["Yuccamaila - Quel'Thalas"] = "Default",
-		["Liumea - Argent Dawn"] = "Default",
-		["Yenuthie - Argent Dawn"] = "Default",
-		["Veirne - Quel'Thalas"] = "Default",
-		["Waafawg - Argent Dawn"] = "Default",
-		["Kotexlevexmi - Argent Dawn"] = "Default",
-		["Awadwa - Argent Dawn"] = "Default",
-		["Ohann - Argent Dawn"] = "Default",
-	},
-	["realm"] = {
-		["Argent Dawn"] = {
-			["guids"] = {
-				["Mæriine"] = "Player-3702-098BF036",
-				["Melvína"] = "Player-3702-08444FCA",
-				["Monkohta"] = "Player-3702-0A3B9850",
-				["Alatarin"] = "Player-3702-0A37A7B1",
-				["Wilxdor-Silvermoon"] = "Player-3391-0BF642E8",
 			},
 		},
 	},
