@@ -16,10 +16,6 @@ Musician_Settings = {
 	["cinematicModeNamePlates"] = false,
 	["nextSongId"] = 29,
 	["emoteHintShown"] = true,
-	["keyboardIsConfigured"] = {
-		["Windows"] = false,
-	},
-	["muteGameMusic"] = true,
 	["keyboardMapping"] = {
 		["Windows"] = {
 			["F11"] = "F11",
@@ -52,8 +48,12 @@ Musician_Settings = {
 			["F9"] = "F9",
 		},
 	},
-	["hideNamePlateBars"] = true,
+	["muteGameMusic"] = true,
 	["namePlatesHintShown"] = true,
+	["hideNamePlateBars"] = true,
+	["keyboardIsConfigured"] = {
+		["Windows"] = false,
+	},
 	["enableEmotePromo"] = true,
 	["enableTipsAndTricks"] = true,
 	["cinematicMode"] = true,
