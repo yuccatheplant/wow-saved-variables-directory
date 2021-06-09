@@ -1,5 +1,104 @@
 
 TRP3_Tools_DB = {
+	["0516220457Kq71r"] = {
+		["IN"] = {
+			["doc"] = {
+				["TY"] = "DO",
+				["LI"] = {
+				},
+				["MD"] = {
+					["MO"] = "NO",
+				},
+				["HA"] = {
+				},
+				["HE"] = 600,
+				["BT"] = true,
+				["SC"] = {
+				},
+				["PA"] = {
+					{
+						["TX"] = "{h1:c}Kylania's will{/h1}\nI hereby give all of my possesions to Yenuthile Spirithout.\n\nKylania Sunborne",
+					}, -- [1]
+					{
+					}, -- [2]
+				},
+				["BCK"] = 8,
+				["BA"] = {
+					["NA"] = "Document",
+				},
+				["P_F"] = "GameTooltipHeader",
+				["FR"] = false,
+				["WI"] = 450,
+				["H1_F"] = "DestinyFontHuge",
+				["H2_F"] = "QuestFont_Huge",
+				["H3_F"] = "GameFontNormalLarge",
+				["BO"] = 1,
+			},
+		},
+		["TY"] = "IT",
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "document_show",
+								["args"] = {
+									"0516220457Kq71r doc", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
+				},
+			},
+		},
+		["securityLevel"] = 3,
+		["MD"] = {
+			["CD"] = "16/05/21 22:04:57",
+			["CB"] = "Yenuthie-ArgentDawn",
+			["V"] = 8,
+			["LO"] = "en",
+			["SD"] = "16/05/21 22:10:30",
+			["tV"] = 1026,
+			["MO"] = "NO",
+			["dV"] = "1.4",
+			["SB"] = "Yenuthie-ArgentDawn",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["MW"] = 0,
+			["DU"] = 0,
+			["SC"] = "4",
+			["SI"] = "5x4",
+			["SR"] = "5",
+		},
+		["BA"] = {
+			["PS"] = 1186,
+			["IC"] = "inv_archaeology_80_witch_book",
+			["CO"] = false,
+			["NA"] = "Kyla's will",
+			["ST"] = false,
+			["QA"] = 7,
+			["PA"] = false,
+			["UN"] = false,
+			["VA"] = 0,
+			["CR"] = false,
+			["DS"] = 1203,
+			["QE"] = false,
+			["US"] = true,
+			["SB"] = false,
+			["WA"] = false,
+			["CT"] = false,
+			["WE"] = 100,
+		},
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
+		},
+		["details"] = {
+		},
+	},
 }
 TRP3_Exchange_DB = {
 	["0419204257wizik"] = {
@@ -18,22 +117,24 @@ TRP3_Exchange_DB = {
 			["CD"] = "19/04/21 20:42:57",
 			["SB"] = "Koruz-ArgentDawn",
 			["V"] = 4,
-			["CB"] = "Koruz-ArgentDawn",
-			["LO"] = "en",
-			["MO"] = "NO",
+			["SD"] = "19/04/21 22:12:02",
 			["dV"] = "1.4",
 			["tV"] = 1026,
-			["SD"] = "19/04/21 22:12:02",
+			["MO"] = "NO",
+			["LO"] = "en",
+			["CB"] = "Koruz-ArgentDawn",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["MW"] = 0,
-			["DU"] = 0,
-			["SC"] = "4",
-			["SI"] = "5x4",
 			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
 		},
-		["securityLevel"] = 3,
+		["US"] = {
+			["SC"] = "onUse",
+		},
 		["BA"] = {
 			["DE"] = "Worth 5 gold",
 			["PS"] = 1185,
@@ -49,14 +150,12 @@ TRP3_Exchange_DB = {
 			["DS"] = 1202,
 			["IC"] = "inv_misc_coinbag01",
 			["QE"] = false,
-			["SB"] = false,
 			["UN"] = false,
+			["SB"] = false,
 			["CT"] = false,
 			["WE"] = 100,
 		},
-		["US"] = {
-			["SC"] = "onUse",
-		},
+		["securityLevel"] = 3,
 	},
 	["0130164302QCfjF"] = {
 		["IN"] = {
@@ -123,20 +222,25 @@ TRP3_Exchange_DB = {
 			["LO"] = "en",
 			["SB"] = "Looradeii-ArgentDawn",
 			["V"] = 34,
-			["SD"] = "08/02/20 18:45:32",
-			["CD"] = "30/01/20 16:43:02",
-			["tV"] = 1018,
+			["CB"] = "Yukisoren-ArgentDawn",
 			["dV"] = "1.3.4",
 			["MO"] = "NO",
-			["CB"] = "Yukisoren-ArgentDawn",
+			["tV"] = 1018,
+			["CD"] = "30/01/20 16:43:02",
+			["SD"] = "08/02/20 18:45:32",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["MW"] = 0,
-			["DU"] = 0,
-			["SC"] = "4",
-			["SI"] = "5x4",
 			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
+		["securityLevel"] = 1,
+		["US"] = {
+			["SC"] = "onUse",
+			["AC"] = "Eat me",
 		},
 		["BA"] = {
 			["PS"] = 1186,
@@ -153,16 +257,11 @@ TRP3_Exchange_DB = {
 			["DS"] = 1203,
 			["IC"] = "inv_misc_food_vendor_toastedfishjerky",
 			["SB"] = false,
-			["WA"] = false,
 			["VA"] = 0,
+			["WA"] = false,
 			["CT"] = false,
 			["WE"] = 0,
 		},
-		["US"] = {
-			["SC"] = "onUse",
-			["AC"] = "Eat me",
-		},
-		["securityLevel"] = 1,
 	},
 	["03112020572xpXI"] = {
 		["IN"] = {
@@ -181,22 +280,24 @@ TRP3_Exchange_DB = {
 			["SD"] = "31/03/20 19:52:34",
 			["CB"] = "Fifonzz-ArgentDawn",
 			["V"] = 4,
-			["SB"] = "Fifonzz-ArgentDawn",
-			["dV"] = "1.3.5.2",
-			["MO"] = "NO",
-			["tV"] = 1021,
-			["LO"] = "en",
 			["CD"] = "11/03/20 20:20:57",
+			["LO"] = "en",
+			["tV"] = 1021,
+			["MO"] = "NO",
+			["dV"] = "1.3.5.2",
+			["SB"] = "Fifonzz-ArgentDawn",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["SR"] = "5",
-			["SI"] = "5x4",
-			["SC"] = "4",
-			["DU"] = 0,
 			["MW"] = 0,
+			["DU"] = 0,
+			["SC"] = "4",
+			["SI"] = "5x4",
+			["SR"] = "5",
 		},
-		["securityLevel"] = 3,
+		["US"] = {
+			["SC"] = "onUse",
+		},
 		["BA"] = {
 			["PS"] = 1188,
 			["IC"] = "ivn_helm_cloth_warfrontshorde_b_01",
@@ -212,14 +313,12 @@ TRP3_Exchange_DB = {
 			["DS"] = 1206,
 			["US"] = false,
 			["QE"] = false,
-			["UN"] = 1,
 			["SB"] = false,
+			["UN"] = 1,
 			["CT"] = false,
 			["WE"] = 0,
 		},
-		["US"] = {
-			["SC"] = "onUse",
-		},
+		["securityLevel"] = 3,
 	},
 	["0223205113fYGEU"] = {
 		["IN"] = {
@@ -242,16 +341,16 @@ TRP3_Exchange_DB = {
 					}, -- [1]
 				},
 				["BCK"] = 8,
-				["BO"] = 1,
-				["H3_F"] = "QuestFont_Huge",
+				["BA"] = {
+					["NA"] = "Document",
+				},
+				["P_F"] = "GameTooltipHeader",
 				["FR"] = false,
 				["WI"] = 450,
 				["H1_F"] = "DestinyFontHuge",
 				["H2_F"] = "QuestFont_Huge",
-				["P_F"] = "GameTooltipHeader",
-				["BA"] = {
-					["NA"] = "Document",
-				},
+				["H3_F"] = "QuestFont_Huge",
+				["BO"] = 1,
 			},
 		},
 		["TY"] = "IT",
@@ -277,26 +376,20 @@ TRP3_Exchange_DB = {
 			["CD"] = "23/02/20 20:51:13",
 			["SB"] = "Janneté-ArgentDawn",
 			["V"] = 6,
-			["SD"] = "24/02/20 21:40:05",
-			["tV"] = 1018,
-			["dV"] = "1.3.4",
-			["MO"] = "NO",
-			["LO"] = "en",
 			["CB"] = "Janneté-ArgentDawn",
+			["LO"] = "en",
+			["MO"] = "NO",
+			["dV"] = "1.3.4",
+			["tV"] = 1018,
+			["SD"] = "24/02/20 21:40:05",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["SR"] = "5",
-			["SI"] = "5x4",
-			["SC"] = "4",
-			["DU"] = 0,
 			["MW"] = 0,
-		},
-		["details"] = {
-		},
-		["US"] = {
-			["AC"] = "Read document",
-			["SC"] = "onUse",
+			["DU"] = 0,
+			["SC"] = "4",
+			["SI"] = "5x4",
+			["SR"] = "5",
 		},
 		["BA"] = {
 			["DE"] = "A note under the ribbon recommends you share this with your friends!",
@@ -313,10 +406,16 @@ TRP3_Exchange_DB = {
 			["DS"] = 1203,
 			["WA"] = false,
 			["SB"] = false,
-			["IC"] = "inv_scroll_16",
 			["QE"] = false,
+			["IC"] = "inv_scroll_16",
 			["CT"] = false,
 			["WE"] = 0,
+		},
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
+		},
+		["details"] = {
 		},
 	},
 	["031418552367uAp"] = {
@@ -340,16 +439,16 @@ TRP3_Exchange_DB = {
 					}, -- [1]
 				},
 				["BCK"] = 8,
-				["BA"] = {
-					["NA"] = "Document",
-				},
-				["P_F"] = "GameTooltipHeader",
+				["BO"] = 1,
+				["H3_F"] = "GameFontNormalLarge",
 				["FR"] = false,
 				["WI"] = 450,
 				["H1_F"] = "DestinyFontHuge",
 				["H2_F"] = "QuestFont_Huge",
-				["H3_F"] = "GameFontNormalLarge",
-				["BO"] = 1,
+				["P_F"] = "GameTooltipHeader",
+				["BA"] = {
+					["NA"] = "Document",
+				},
 			},
 		},
 		["TY"] = "IT",
@@ -375,20 +474,26 @@ TRP3_Exchange_DB = {
 			["SD"] = "02/04/20 18:01:37",
 			["SB"] = "Nashanael-ArgentDawn",
 			["V"] = 7,
-			["CD"] = "14/03/20 18:55:23",
-			["LO"] = "en",
-			["tV"] = 1022,
+			["CB"] = "Nashanael-ArgentDawn",
 			["dV"] = "1.3.5.3",
 			["MO"] = "NO",
-			["CB"] = "Nashanael-ArgentDawn",
+			["tV"] = 1022,
+			["LO"] = "en",
+			["CD"] = "14/03/20 18:55:23",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["MW"] = 0,
-			["DU"] = 0,
-			["SC"] = "4",
-			["SI"] = "5x4",
 			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
+		["details"] = {
+		},
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
 		},
 		["BA"] = {
 			["DE"] = "Read me",
@@ -405,16 +510,10 @@ TRP3_Exchange_DB = {
 			["DS"] = 1203,
 			["WA"] = false,
 			["SB"] = false,
-			["QE"] = true,
 			["IC"] = "inv_inscription_parchmentvar01",
+			["QE"] = true,
 			["CT"] = false,
 			["WE"] = 0,
-		},
-		["US"] = {
-			["AC"] = "Read document",
-			["SC"] = "onUse",
-		},
-		["details"] = {
 		},
 	},
 	["042100145564xVd"] = {
@@ -433,24 +532,22 @@ TRP3_Exchange_DB = {
 			["SD"] = "21/04/21 00:18:46",
 			["SB"] = "Koruz-ArgentDawn",
 			["V"] = 2,
-			["LO"] = "en",
-			["tV"] = 1026,
-			["dV"] = "1.4",
-			["MO"] = "NO",
-			["CD"] = "21/04/21 00:14:55",
 			["CB"] = "Koruz-ArgentDawn",
+			["CD"] = "21/04/21 00:14:55",
+			["MO"] = "NO",
+			["dV"] = "1.4",
+			["tV"] = 1026,
+			["LO"] = "en",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["SR"] = "5",
-			["SI"] = "5x4",
-			["SC"] = "4",
-			["DU"] = 0,
 			["MW"] = 0,
+			["DU"] = 0,
+			["SC"] = "4",
+			["SI"] = "5x4",
+			["SR"] = "5",
 		},
-		["US"] = {
-			["SC"] = "onUse",
-		},
+		["securityLevel"] = 3,
 		["BA"] = {
 			["DE"] = "Some engraving can be seen on the side.",
 			["PS"] = 1186,
@@ -466,12 +563,71 @@ TRP3_Exchange_DB = {
 			["DS"] = 1203,
 			["US"] = false,
 			["QE"] = false,
-			["UN"] = 1,
 			["SB"] = false,
+			["UN"] = 1,
 			["CT"] = false,
 			["WE"] = 1500,
 		},
+		["US"] = {
+			["SC"] = "onUse",
+		},
+	},
+	["04191950437OgCA"] = {
+		["IN"] = {
+		},
+		["BA"] = {
+			["DE"] = "Inscribed on it - \"Darkheart Company, Items extraordinare\"",
+			["PS"] = 1186,
+			["US"] = false,
+			["CO"] = false,
+			["NA"] = "A Card",
+			["ST"] = 50,
+			["QA"] = 4,
+			["PA"] = false,
+			["WA"] = false,
+			["VA"] = 1000,
+			["CR"] = false,
+			["WE"] = 25,
+			["DS"] = 1203,
+			["IC"] = "item_hearthstone_card_purple",
+			["UN"] = false,
+			["SB"] = false,
+			["QE"] = false,
+			["CT"] = false,
+			["RI"] = "Calling Card",
+		},
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+				},
+			},
+		},
+		["details"] = {
+		},
+		["MD"] = {
+			["CD"] = "19/04/21 19:50:43",
+			["CB"] = "Koruz-ArgentDawn",
+			["V"] = 3,
+			["SD"] = "19/04/21 19:58:17",
+			["dV"] = "1.4",
+			["tV"] = 1026,
+			["MO"] = "NO",
+			["LO"] = "en",
+			["SB"] = "Koruz-ArgentDawn",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
 		["securityLevel"] = 3,
+		["US"] = {
+			["SC"] = "onUse",
+		},
+		["TY"] = "IT",
 	},
 	["0314164253oakUK"] = {
 		["IN"] = {
@@ -494,16 +650,16 @@ TRP3_Exchange_DB = {
 					}, -- [1]
 				},
 				["BCK"] = 8,
-				["BO"] = 1,
-				["H3_F"] = "GameFontNormalLarge",
+				["BA"] = {
+					["NA"] = "Document",
+				},
+				["P_F"] = "GameTooltipHeader",
 				["FR"] = false,
 				["WI"] = 450,
 				["H1_F"] = "DestinyFontHuge",
 				["H2_F"] = "QuestFont_Huge",
-				["P_F"] = "GameTooltipHeader",
-				["BA"] = {
-					["NA"] = "Document",
-				},
+				["H3_F"] = "GameFontNormalLarge",
+				["BO"] = 1,
 			},
 		},
 		["TY"] = "IT",
@@ -529,26 +685,20 @@ TRP3_Exchange_DB = {
 			["SD"] = "14/03/20 16:46:52",
 			["SB"] = "Zíreaél-ArgentDawn",
 			["V"] = 2,
-			["LO"] = "en",
-			["dV"] = "1.3.5.2",
-			["tV"] = 1021,
-			["MO"] = "NO",
-			["CD"] = "14/03/20 16:42:53",
 			["CB"] = "Zíreaél-ArgentDawn",
+			["CD"] = "14/03/20 16:42:53",
+			["MO"] = "NO",
+			["tV"] = 1021,
+			["dV"] = "1.3.5.2",
+			["LO"] = "en",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["SR"] = "5",
-			["SI"] = "5x4",
-			["SC"] = "4",
-			["DU"] = 0,
 			["MW"] = 0,
-		},
-		["details"] = {
-		},
-		["US"] = {
-			["AC"] = "Read document",
-			["SC"] = "onUse",
+			["DU"] = 0,
+			["SC"] = "4",
+			["SI"] = "5x4",
+			["SR"] = "5",
 		},
 		["BA"] = {
 			["PS"] = 1186,
@@ -564,208 +714,17 @@ TRP3_Exchange_DB = {
 			["DS"] = 1203,
 			["QE"] = false,
 			["WA"] = false,
+			["SB"] = false,
 			["IC"] = "inv_letter_15",
-			["SB"] = false,
 			["CT"] = false,
 			["WE"] = 0,
 		},
-	},
-	["1124105229jy4At"] = {
-		["IN"] = {
-			["doc"] = {
-				["TY"] = "DO",
-				["LI"] = {
-				},
-				["MD"] = {
-					["MO"] = "NO",
-				},
-				["HA"] = {
-				},
-				["HE"] = 800,
-				["BT"] = true,
-				["SC"] = {
-				},
-				["PA"] = {
-					{
-						["TX"] = "{img:Interface\\ARCHEOLOGY\\ArchRare-HighborneNightElves:512:256}\n{h1:c}Lunarwing Provisions{/h1}\n{h3}Do you need something for your daily needs or you are looking for something exotic? \n\nYou may also need help to find equipment for your company? \n\nThen you found the right flyer! Visit the \"Lunarwings Provisions\" in Boralus and browse through all the goods we offer. \n\nWe don't offer your hearts desire? Just make an order and we will get it for you and deliver it as well. Don't forget to tell us something about your order in the mail! Make your order now!\n\nGrand opening on 29.11. at 19.00! Gather your friends and join our opening party! Good drinks, a lottery and a costume contest awaits you!{/h3}\n\nAdress:\nDock 1 Exports\nUpton Borough, Boralus\n(56.20, 69.50)\n\n*ooc for mail \"Biocookie\" (GM) and \"Thoridorei\" (CoGM)*",
-					}, -- [1]
-				},
-				["BCK"] = 8,
-				["BA"] = {
-					["NA"] = "Document",
-				},
-				["P_F"] = "GameTooltipHeader",
-				["FR"] = true,
-				["WI"] = 450,
-				["H1_F"] = "DestinyFontHuge",
-				["H2_F"] = "QuestFont_Huge",
-				["H3_F"] = "GameFontNormalLarge",
-				["BO"] = 1,
-			},
-		},
-		["TY"] = "IT",
-		["SC"] = {
-			["onUse"] = {
-				["ST"] = {
-					["1"] = {
-						["e"] = {
-							{
-								["id"] = "document_show",
-								["args"] = {
-									"1124105229jy4At doc", -- [1]
-								},
-							}, -- [1]
-						},
-						["t"] = "list",
-					},
-				},
-			},
-		},
-		["securityLevel"] = 3,
-		["MD"] = {
-			["SD"] = "29/11/19 18:16:52",
-			["SB"] = "Thoridorei-ArgentDawn",
-			["V"] = 55,
-			["CD"] = "24/11/19 10:52:29",
-			["LO"] = "en",
-			["tV"] = 1017,
-			["MO"] = "NO",
-			["dV"] = "1.3.3",
-			["CB"] = "Thoridorei-ArgentDawn",
-		},
-		["CO"] = {
-			["OI"] = false,
-			["MW"] = 0,
-			["DU"] = 0,
-			["SC"] = "4",
-			["SI"] = "5x4",
-			["SR"] = "5",
-		},
-		["BA"] = {
-			["DE"] = "A business or service offer from The Lunarwing Provisions it seems.",
-			["PS"] = 1192,
-			["US"] = true,
-			["CO"] = false,
-			["NA"] = "The Lunarwing Provisions flyer",
-			["ST"] = false,
-			["QA"] = 3,
-			["PA"] = false,
-			["UN"] = false,
-			["VA"] = 1,
-			["CR"] = true,
-			["DS"] = 1209,
-			["WA"] = false,
-			["SB"] = false,
-			["QE"] = true,
-			["IC"] = "70_professions_scroll_03",
-			["CT"] = false,
-			["WE"] = 2,
-		},
-		["US"] = {
-			["AC"] = "Read whats written on it.",
-			["SC"] = "onUse",
-		},
-		["details"] = {
-		},
-	},
-	["01301645396yvma"] = {
-		["IN"] = {
-			["doc"] = {
-				["TY"] = "DO",
-				["LI"] = {
-				},
-				["MD"] = {
-					["MO"] = "NO",
-				},
-				["HA"] = {
-				},
-				["HE"] = 600,
-				["BT"] = true,
-				["SC"] = {
-				},
-				["PA"] = {
-					{
-						["TX"] = "{h1:c}Asleepen{/h1}\n\n{p:c}Hello Straanger!\n\nYou found my little stash! awesome! please feel free to take as muuch Jerky as you'd like, Better than that Swampweed stuff those cultists are leaving here.\n\n\nYours in kindness\nYuki Padley\n\nP.S if this gets back to those cultist wacko's my message to them is as follows; Asleepen!{/p}",
-					}, -- [1]
-				},
-				["BCK"] = 8,
-				["BA"] = {
-					["NA"] = "Document",
-				},
-				["P_F"] = "GameTooltipHeader",
-				["FR"] = false,
-				["WI"] = 450,
-				["H1_F"] = "DestinyFontHuge",
-				["H2_F"] = "QuestFont_Huge",
-				["H3_F"] = "GameFontNormalLarge",
-				["BO"] = 1,
-			},
-		},
-		["BA"] = {
-			["DE"] = "Read me!",
-			["PS"] = 1192,
-			["IC"] = "inv_inscription_papyrus",
-			["CO"] = false,
-			["NA"] = "A Handwritten Note",
-			["ST"] = 20,
-			["QA"] = 1,
-			["PA"] = false,
-			["WA"] = false,
-			["VA"] = 0,
-			["CR"] = false,
-			["DS"] = 1209,
-			["US"] = true,
-			["SB"] = false,
-			["UN"] = false,
-			["QE"] = false,
-			["CT"] = false,
-			["WE"] = 0,
-		},
-		["SC"] = {
-			["onUse"] = {
-				["ST"] = {
-					["1"] = {
-						["e"] = {
-							{
-								["id"] = "document_show",
-								["args"] = {
-									"01301645396yvma doc", -- [1]
-								},
-							}, -- [1]
-						},
-						["t"] = "list",
-					},
-				},
-			},
-		},
-		["details"] = {
-		},
-		["NT"] = "test",
 		["US"] = {
 			["AC"] = "Read document",
 			["SC"] = "onUse",
 		},
-		["CO"] = {
-			["OI"] = false,
-			["MW"] = 0,
-			["DU"] = 0,
-			["SC"] = "4",
-			["SI"] = "5x4",
-			["SR"] = "5",
+		["details"] = {
 		},
-		["MD"] = {
-			["LO"] = "en",
-			["CB"] = "Yukisoren-ArgentDawn",
-			["V"] = 13,
-			["SB"] = "Yukisoren-ArgentDawn",
-			["SD"] = "02/02/20 18:20:11",
-			["MO"] = "NO",
-			["tV"] = 1018,
-			["dV"] = "1.3.4",
-			["CD"] = "30/01/20 16:45:39",
-		},
-		["TY"] = "IT",
-		["securityLevel"] = 3,
 	},
 	["0421000045iz3hJ"] = {
 		["IN"] = {
@@ -785,8 +744,8 @@ TRP3_Exchange_DB = {
 			["DS"] = 1203,
 			["US"] = true,
 			["QE"] = false,
-			["SB"] = false,
 			["UN"] = 1,
+			["SB"] = false,
 			["CT"] = false,
 			["WE"] = 300,
 		},
@@ -846,8 +805,8 @@ TRP3_Exchange_DB = {
 					["4"] = {
 						["i"] = 1,
 						["s"] = 0,
-						["d"] = 2,
 						["t"] = "delay",
+						["d"] = 2,
 						["c"] = 1,
 						["n"] = "5",
 					},
@@ -863,84 +822,335 @@ TRP3_Exchange_DB = {
 			["LO"] = "en",
 			["CB"] = "Koruz-ArgentDawn",
 			["V"] = 3,
-			["SB"] = "Koruz-ArgentDawn",
-			["SD"] = "21/04/21 00:11:59",
-			["MO"] = "NO",
+			["CD"] = "21/04/21 00:00:45",
 			["dV"] = "1.4",
 			["tV"] = 1026,
-			["CD"] = "21/04/21 00:00:45",
+			["MO"] = "NO",
+			["SD"] = "21/04/21 00:11:59",
+			["SB"] = "Koruz-ArgentDawn",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["MW"] = 0,
-			["DU"] = 0,
-			["SC"] = "4",
-			["SI"] = "5x4",
 			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
 		},
-		["TY"] = "IT",
+		["securityLevel"] = 1,
 		["US"] = {
 			["SC"] = "onUse",
 			["AC"] = "Light the pipe.",
 		},
-		["securityLevel"] = 1,
+		["TY"] = "IT",
 	},
-	["04191950437OgCA"] = {
+	["01301645396yvma"] = {
 		["IN"] = {
+			["doc"] = {
+				["TY"] = "DO",
+				["LI"] = {
+				},
+				["MD"] = {
+					["MO"] = "NO",
+				},
+				["HA"] = {
+				},
+				["HE"] = 600,
+				["BT"] = true,
+				["SC"] = {
+				},
+				["PA"] = {
+					{
+						["TX"] = "{h1:c}Asleepen{/h1}\n\n{p:c}Hello Straanger!\n\nYou found my little stash! awesome! please feel free to take as muuch Jerky as you'd like, Better than that Swampweed stuff those cultists are leaving here.\n\n\nYours in kindness\nYuki Padley\n\nP.S if this gets back to those cultist wacko's my message to them is as follows; Asleepen!{/p}",
+					}, -- [1]
+				},
+				["BCK"] = 8,
+				["BO"] = 1,
+				["H3_F"] = "GameFontNormalLarge",
+				["FR"] = false,
+				["WI"] = 450,
+				["H1_F"] = "DestinyFontHuge",
+				["H2_F"] = "QuestFont_Huge",
+				["P_F"] = "GameTooltipHeader",
+				["BA"] = {
+					["NA"] = "Document",
+				},
+			},
 		},
 		["BA"] = {
-			["DE"] = "Inscribed on it - \"Darkheart Company, Items extraordinare\"",
-			["PS"] = 1186,
-			["US"] = false,
+			["DE"] = "Read me!",
+			["PS"] = 1192,
+			["IC"] = "inv_inscription_papyrus",
 			["CO"] = false,
-			["NA"] = "A Card",
-			["ST"] = 50,
-			["QA"] = 4,
+			["NA"] = "A Handwritten Note",
+			["ST"] = 20,
+			["QA"] = 1,
 			["PA"] = false,
 			["WA"] = false,
-			["VA"] = 1000,
+			["VA"] = 0,
 			["CR"] = false,
-			["RI"] = "Calling Card",
-			["DS"] = 1203,
-			["IC"] = "item_hearthstone_card_purple",
-			["QE"] = false,
+			["DS"] = 1209,
+			["US"] = true,
 			["SB"] = false,
+			["QE"] = false,
 			["UN"] = false,
 			["CT"] = false,
-			["WE"] = 25,
+			["WE"] = 0,
 		},
 		["SC"] = {
 			["onUse"] = {
 				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "document_show",
+								["args"] = {
+									"01301645396yvma doc", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
 				},
 			},
 		},
 		["details"] = {
 		},
-		["MD"] = {
-			["CD"] = "19/04/21 19:50:43",
-			["CB"] = "Koruz-ArgentDawn",
-			["V"] = 3,
-			["SB"] = "Koruz-ArgentDawn",
-			["LO"] = "en",
-			["MO"] = "NO",
-			["dV"] = "1.4",
-			["tV"] = 1026,
-			["SD"] = "19/04/21 19:58:17",
+		["NT"] = "test",
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
 		},
 		["CO"] = {
 			["OI"] = false,
-			["MW"] = 0,
-			["DU"] = 0,
-			["SC"] = "4",
-			["SI"] = "5x4",
 			["SR"] = "5",
-		},
-		["TY"] = "IT",
-		["US"] = {
-			["SC"] = "onUse",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
 		},
 		["securityLevel"] = 3,
+		["TY"] = "IT",
+		["MD"] = {
+			["LO"] = "en",
+			["CB"] = "Yukisoren-ArgentDawn",
+			["V"] = 13,
+			["CD"] = "30/01/20 16:45:39",
+			["tV"] = 1018,
+			["dV"] = "1.3.4",
+			["MO"] = "NO",
+			["SD"] = "02/02/20 18:20:11",
+			["SB"] = "Yukisoren-ArgentDawn",
+		},
+	},
+	["1124105229jy4At"] = {
+		["IN"] = {
+			["doc"] = {
+				["TY"] = "DO",
+				["LI"] = {
+				},
+				["MD"] = {
+					["MO"] = "NO",
+				},
+				["HA"] = {
+				},
+				["HE"] = 800,
+				["BT"] = true,
+				["SC"] = {
+				},
+				["PA"] = {
+					{
+						["TX"] = "{img:Interface\\ARCHEOLOGY\\ArchRare-HighborneNightElves:512:256}\n{h1:c}Lunarwing Provisions{/h1}\n{h3}Do you need something for your daily needs or you are looking for something exotic? \n\nYou may also need help to find equipment for your company? \n\nThen you found the right flyer! Visit the \"Lunarwings Provisions\" in Boralus and browse through all the goods we offer. \n\nWe don't offer your hearts desire? Just make an order and we will get it for you and deliver it as well. Don't forget to tell us something about your order in the mail! Make your order now!\n\nGrand opening on 29.11. at 19.00! Gather your friends and join our opening party! Good drinks, a lottery and a costume contest awaits you!{/h3}\n\nAdress:\nDock 1 Exports\nUpton Borough, Boralus\n(56.20, 69.50)\n\n*ooc for mail \"Biocookie\" (GM) and \"Thoridorei\" (CoGM)*",
+					}, -- [1]
+				},
+				["BCK"] = 8,
+				["BO"] = 1,
+				["H3_F"] = "GameFontNormalLarge",
+				["FR"] = true,
+				["WI"] = 450,
+				["H1_F"] = "DestinyFontHuge",
+				["H2_F"] = "QuestFont_Huge",
+				["P_F"] = "GameTooltipHeader",
+				["BA"] = {
+					["NA"] = "Document",
+				},
+			},
+		},
+		["TY"] = "IT",
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "document_show",
+								["args"] = {
+									"1124105229jy4At doc", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
+				},
+			},
+		},
+		["securityLevel"] = 3,
+		["MD"] = {
+			["SD"] = "29/11/19 18:16:52",
+			["SB"] = "Thoridorei-ArgentDawn",
+			["V"] = 55,
+			["CB"] = "Thoridorei-ArgentDawn",
+			["MO"] = "NO",
+			["dV"] = "1.3.3",
+			["tV"] = 1017,
+			["LO"] = "en",
+			["CD"] = "24/11/19 10:52:29",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
+		["details"] = {
+		},
+		["US"] = {
+			["AC"] = "Read whats written on it.",
+			["SC"] = "onUse",
+		},
+		["BA"] = {
+			["DE"] = "A business or service offer from The Lunarwing Provisions it seems.",
+			["PS"] = 1192,
+			["US"] = true,
+			["CO"] = false,
+			["NA"] = "The Lunarwing Provisions flyer",
+			["ST"] = false,
+			["QA"] = 3,
+			["PA"] = false,
+			["UN"] = false,
+			["VA"] = 1,
+			["CR"] = true,
+			["DS"] = 1209,
+			["WA"] = false,
+			["SB"] = false,
+			["IC"] = "70_professions_scroll_03",
+			["QE"] = true,
+			["CT"] = false,
+			["WE"] = 2,
+		},
+	},
+	["0515223024qC52v"] = {
+		["IN"] = {
+			["doc"] = {
+				["TY"] = "DO",
+				["LI"] = {
+				},
+				["BO"] = 1,
+				["HA"] = {
+				},
+				["HE"] = 600,
+				["BT"] = true,
+				["SC"] = {
+				},
+				["PA"] = {
+					{
+						["TX"] = ".... Kalimdor. That's where it seems to be at least, not sure yet where.\nI ruled outland out of the question, same as Northren and Pandaria. Kalimdor is most likely, although i have not eliminated all leads in Eastern Kingdoms, i must contact some of my old sources and....\n\n(rest of the page seems unreadable)",
+					}, -- [1]
+					{
+						["TX"] = "....of a guardian. not sure what it may be, but i better prepare my equipment, don't wanna be caught off-guard. Outside of that, most legends say that the only thing to worry about there is that damned thing, as the area around the well is said to be tranquil. Guess i have to get some resources prepared....\n\n(rest of the page seems unreadable)",
+					}, -- [2]
+					{
+						["TX"] = "Dammit. My head is getting more and more cluttered by the day, and i start to notice that i a losing time. i feel something scratching in my bloody head, i have to hurry. i Think i'll tell Lucius about it, need a backup.\n\n(rest of the page seems unreadable)",
+					}, -- [3]
+					{
+						["TX"] = ".... I have found some leads on the current location of the well, for now the list of people that i heard the names of\n\n-Baron of the Bay\n-Master of the Drink\n-Forsaken of Light's hope\n-Inkeep of Thrallmar\n\nSome of them heard rumors, i think i outta pay them a visit.....\n\n(rest of the page seems unreadable)",
+					}, -- [4]
+					{
+						["TX"] = "I.... i don't know.... what's happening anymore. The world seems wrong.... my mind.... can't think. William. I need that plague, this world will be free. DAMMIT WHAT AM I WRITING WHAT IS HAPPENING I CAN'T BLOODY THINK NORMAL..... i....i am losing it. Whoever finds this.... i hope something stops me. i think i am at the edge, and soon whatever is clawing at the back of my head will be the thing that controls me. Luci, if you are reading this, I am sorry, Hex, i am sorry, Kyla, I am sorry.... to all of Darkheart and Azeroth, i am sorry. I cannot hold Much longer. Farewell.\n\nALL LIFE MUST END.",
+					}, -- [5]
+				},
+				["BCK"] = 8,
+				["MD"] = {
+					["MO"] = "NO",
+				},
+				["P_F"] = "GameTooltipHeader",
+				["FR"] = false,
+				["WI"] = 450,
+				["H1_F"] = "DestinyFontHuge",
+				["H2_F"] = "QuestFont_Huge",
+				["H3_F"] = "GameFontNormalLarge",
+				["BA"] = {
+					["NA"] = "Document",
+				},
+			},
+		},
+		["TY"] = "IT",
+		["SC"] = {
+			["onUse"] = {
+				["ST"] = {
+					["1"] = {
+						["e"] = {
+							{
+								["id"] = "document_show",
+								["args"] = {
+									"0515223024qC52v doc", -- [1]
+								},
+							}, -- [1]
+						},
+						["t"] = "list",
+					},
+				},
+			},
+		},
+		["securityLevel"] = 3,
+		["NT"] = "Kek",
+		["MD"] = {
+			["CD"] = "15/05/21 22:30:24",
+			["SB"] = "Koruz-ArgentDawn",
+			["V"] = 6,
+			["CB"] = "Koruz-ArgentDawn",
+			["LO"] = "en",
+			["MO"] = "NO",
+			["tV"] = 1026,
+			["dV"] = "1.4",
+			["SD"] = "16/05/21 20:40:04",
+		},
+		["CO"] = {
+			["OI"] = false,
+			["SR"] = "5",
+			["SI"] = "5x4",
+			["SC"] = "4",
+			["DU"] = 0,
+			["MW"] = 0,
+		},
+		["details"] = {
+		},
+		["US"] = {
+			["AC"] = "Read document",
+			["SC"] = "onUse",
+		},
+		["BA"] = {
+			["DE"] = "Leather journal written by Koruz",
+			["PS"] = 1186,
+			["US"] = true,
+			["CO"] = false,
+			["NA"] = "Koruz's Journal Part 1",
+			["ST"] = false,
+			["QA"] = 5,
+			["SB"] = false,
+			["UN"] = false,
+			["VA"] = 0,
+			["CR"] = false,
+			["DS"] = 1203,
+			["QE"] = false,
+			["WA"] = false,
+			["IC"] = "inv_misc_book_09",
+			["PA"] = false,
+			["CT"] = false,
+			["WE"] = 0,
+		},
 	},
 }
 TRP3_Security = {
@@ -956,11 +1166,12 @@ TRP3_Security = {
 		["0223205113fYGEU"] = "Janneté-ArgentDawn",
 		["031418552367uAp"] = "Archfyre-ArgentDawn",
 		["042100145564xVd"] = "Koruz-ArgentDawn",
-		["0314164253oakUK"] = "Darenin-ArgentDawn",
-		["1124105229jy4At"] = "Barktender-ArgentDawn",
-		["01301645396yvma"] = "Looradeii-ArgentDawn",
-		["0421000045iz3hJ"] = "Koruz-ArgentDawn",
 		["04191950437OgCA"] = "Koruz-ArgentDawn",
+		["0314164253oakUK"] = "Darenin-ArgentDawn",
+		["0421000045iz3hJ"] = "Koruz-ArgentDawn",
+		["01301645396yvma"] = "Looradeii-ArgentDawn",
+		["1124105229jy4At"] = "Barktender-ArgentDawn",
+		["0515223024qC52v"] = "Mothradamus-ArgentDawn",
 	},
 	["global"] = {
 		["SEC_REASON_TALK"] = false,
@@ -980,12 +1191,12 @@ TRP3_Drop = {
 			["posX"] = -4530.30029296875,
 			["mapY"] = 0.4945967793464661,
 			["posZ"] = 0,
+			["mapX"] = 0.5886849164962769,
 			["item"] = {
 				["madeBy"] = "Fifonzz-ArgentDawn",
 				["count"] = 1,
 				["id"] = "03112020572xpXI",
 			},
-			["mapX"] = 0.5886849164962769,
 		}, -- [1]
 	},
 }

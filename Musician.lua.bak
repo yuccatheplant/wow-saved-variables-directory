@@ -9,12 +9,13 @@ Musician_Settings = {
 	["mutedPlayers"] = {
 	},
 	["keyboardVisible"] = true,
+	["cinematicModeNamePlates"] = false,
 	["trp3MapScan"] = true,
 	["debug"] = {
 	},
 	["enableEmote"] = true,
-	["cinematicModeNamePlates"] = false,
-	["nextSongId"] = 29,
+	["cinematicMode"] = true,
+	["nextSongId"] = 32,
 	["emoteHintShown"] = true,
 	["keyboardMapping"] = {
 		["Windows"] = {
@@ -49,13 +50,17 @@ Musician_Settings = {
 		},
 	},
 	["muteGameMusic"] = true,
-	["namePlatesHintShown"] = true,
 	["hideNamePlateBars"] = true,
+	["namePlatesHintShown"] = true,
 	["keyboardIsConfigured"] = {
 		["Windows"] = false,
 	},
 	["enableEmotePromo"] = true,
 	["enableTipsAndTricks"] = true,
-	["cinematicMode"] = true,
+	["tracking"] = {
+		["Yenuthile-ArgentDawn"] = {
+			["world"] = true,
+		},
+	},
 	["muteInstrumentToys"] = true,
 }

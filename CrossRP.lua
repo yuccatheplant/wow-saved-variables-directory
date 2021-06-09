@@ -2,9 +2,8 @@
 CrossRP_Saved = {
 	["char"] = {
 		["Yenuthie - Argent Dawn"] = {
-			["logout_time"] = 1620437226,
-			["rpchat_relay"] = false,
-			["horde_touched"] = 1620328279.551,
+			["logout_time"] = 1623220000,
+			["horde_touched"] = 1621981453.003,
 		},
 	},
 	["global"] = {
@@ -15,9 +14,12 @@ CrossRP_Saved = {
 	},
 	["profileKeys"] = {
 		["Sulgiwen - Argent Dawn"] = "Default",
+		["Tosmun - Argent Dawn"] = "Default",
 		["Yenuthie - Argent Dawn"] = "Default",
+		["Yenuthile - Argent Dawn"] = "Default",
+		["Joowei - Argent Dawn"] = "Default",
 		["Shuayo - Argent Dawn"] = "Default",
 		["Yeklie - Argent Dawn"] = "Default",
-		["Tosmun - Argent Dawn"] = "Default",
+		["Ohann - Argent Dawn"] = "Default",
 	},
 }

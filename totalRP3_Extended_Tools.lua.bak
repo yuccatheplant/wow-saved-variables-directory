@@ -1,7 +1,7 @@
 
 TRP3_Tools_Parameters = {
 	["editortabs"] = {
-		["042423290735q8X"] = 5,
+		["0516220457Kq71r"] = 1,
 	},
 }
 TRP3_Tools_Flags = {
