@@ -14,12 +14,12 @@ CrossRP_Saved = {
 	},
 	["profileKeys"] = {
 		["Sulgiwen - Argent Dawn"] = "Default",
-		["Ohann - Argent Dawn"] = "Default",
+		["Tosmun - Argent Dawn"] = "Default",
 		["Yenuthie - Argent Dawn"] = "Default",
 		["Yenuthile - Argent Dawn"] = "Default",
-		["Yeklie - Argent Dawn"] = "Default",
-		["Shuayo - Argent Dawn"] = "Default",
 		["Joowei - Argent Dawn"] = "Default",
-		["Tosmun - Argent Dawn"] = "Default",
+		["Shuayo - Argent Dawn"] = "Default",
+		["Yeklie - Argent Dawn"] = "Default",
+		["Ohann - Argent Dawn"] = "Default",
 	},
 }
